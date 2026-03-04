@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\DebateScoringEngine.Api.props" />
-</Project>
