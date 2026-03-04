@@ -30,13 +30,6 @@ Includes a React frontend with a flow-sheet visualizer, score panel, enrichment 
 # Clone and build
 git clone <repo>
 cd DebateScoringEngine
-dotnet build DebateScoringEngine.sln
-
-# Score a sample debate via CLI
-dotnet run --project Cli -- --input Samples/sample-debate.json --brief
-
-# Run all tests
-dotnet test Tests/DebateScoringEngine.Tests.csproj
 
 # Start the API
 dotnet run --project Api
