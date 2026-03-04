@@ -1,0 +1,36 @@
+[
+  {
+    "stockCaseId": "sc-t-substantially",
+    "label": "Topicality — Substantially (Standard Shell)",
+    "stockIssueTag": "Topicality",
+    "side": "NEG",
+    "source": "system",
+    "defaultEnrichment": {
+      "evidenceQuality": "ExpertOpinion",
+      "impactMagnitude": "Significant",
+      "fallacies": []
+    },
+    "blueprintArgument": {
+      "claim": "AFF's plan does not meet the threshold for 'substantially' increasing regulation",
+      "reasoning": "Substantially requires a meaningful, measurable increase in regulatory burden — minor procedural adjustments or restatements of existing rules do not qualify under any reasonable interpretation of the term",
+      "impact": "Voting AFF on a non-topical plan undermines the limits of the resolution, sets a bad precedent for future rounds, and makes negative preparation impossible"
+    }
+  },
+  {
+    "stockCaseId": "sc-t-federal",
+    "label": "Topicality — Federal Action Required",
+    "stockIssueTag": "Topicality",
+    "side": "NEG",
+    "source": "system",
+    "defaultEnrichment": {
+      "evidenceQuality": "ExpertOpinion",
+      "impactMagnitude": "Significant",
+      "fallacies": []
+    },
+    "blueprintArgument": {
+      "claim": "AFF's mechanism relies on state or private action rather than federal government action",
+      "reasoning": "The resolution specifies the USFG as the actor — plans that rely on industry self-regulation or state mandates fall outside the resolution's scope",
+      "impact": "Non-topical plans allow AFF to sidestep the most controversial and debatable aspects of federal regulation, skewing the ground of the debate"
+    }
+  }
+]

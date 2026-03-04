@@ -1,0 +1,930 @@
+{
+  "debate": {
+    "debateId": "round-001",
+    "roundId": "round-001",
+    "teams": {
+      "AFF": {
+        "teamId": "aff",
+        "side": "AFF",
+        "speakerIds": [
+          "spk-1",
+          "spk-2"
+        ]
+      },
+      "NEG": {
+        "teamId": "neg",
+        "side": "NEG",
+        "speakerIds": [
+          "spk-3",
+          "spk-4"
+        ]
+      }
+    },
+    "speakers": [
+      {
+        "speakerId": "spk-1",
+        "name": "Alice Chen",
+        "side": "AFF"
+      },
+      {
+        "speakerId": "spk-2",
+        "name": "Ben Nakamura",
+        "side": "AFF"
+      },
+      {
+        "speakerId": "spk-3",
+        "name": "Carol Okafor",
+        "side": "NEG"
+      },
+      {
+        "speakerId": "spk-4",
+        "name": "David Torres",
+        "side": "NEG"
+      }
+    ],
+    "speeches": [
+      {
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "timeAllocatedSeconds": 480,
+        "timeUsedSeconds": 471,
+        "argumentIds": [
+          "arg-dab744a4",
+          "arg-9c12567c",
+          "arg-0d085a51",
+          "arg-01579b53",
+          "arg-044ce766"
+        ]
+      },
+      {
+        "speechId": "1NC",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "timeAllocatedSeconds": 480,
+        "timeUsedSeconds": 478,
+        "argumentIds": [
+          "arg-dab744a4",
+          "arg-9c12567c",
+          "arg-0d085a51",
+          "arg-01579b53",
+          "arg-044ce766"
+        ]
+      },
+      {
+        "speechId": "2AC",
+        "speakerId": "spk-2",
+        "side": "AFF",
+        "timeAllocatedSeconds": 480,
+        "timeUsedSeconds": 465,
+        "argumentIds": [
+          "arg-dab744a4",
+          "arg-9c12567c",
+          "arg-0d085a51",
+          "arg-01579b53",
+          "arg-044ce766"
+        ]
+      },
+      {
+        "speechId": "2NC",
+        "speakerId": "spk-4",
+        "side": "NEG",
+        "timeAllocatedSeconds": 480,
+        "timeUsedSeconds": 480,
+        "argumentIds": [
+          "arg-dab744a4",
+          "arg-9c12567c",
+          "arg-0d085a51",
+          "arg-01579b53",
+          "arg-044ce766"
+        ]
+      },
+      {
+        "speechId": "1NR",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "timeAllocatedSeconds": 300,
+        "timeUsedSeconds": 298,
+        "argumentIds": [
+          "arg-dab744a4",
+          "arg-9c12567c",
+          "arg-0d085a51",
+          "arg-01579b53",
+          "arg-044ce766"
+        ]
+      },
+      {
+        "speechId": "1AR",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "timeAllocatedSeconds": 300,
+        "timeUsedSeconds": 295,
+        "argumentIds": [
+          "arg-dab744a4",
+          "arg-9c12567c",
+          "arg-0d085a51",
+          "arg-01579b53",
+          "arg-044ce766"
+        ]
+      },
+      {
+        "speechId": "2NR",
+        "speakerId": "spk-4",
+        "side": "NEG",
+        "timeAllocatedSeconds": 300,
+        "timeUsedSeconds": 285,
+        "argumentIds": [
+          "arg-dab744a4",
+          "arg-9c12567c",
+          "arg-0d085a51",
+          "arg-01579b53",
+          "arg-044ce766"
+        ]
+      },
+      {
+        "speechId": "2AR",
+        "speakerId": "spk-2",
+        "side": "AFF",
+        "timeAllocatedSeconds": 300,
+        "timeUsedSeconds": 299,
+        "argumentIds": [
+          "arg-dab744a4",
+          "arg-9c12567c",
+          "arg-0d085a51",
+          "arg-01579b53",
+          "arg-044ce766"
+        ]
+      }
+    ],
+    "arguments": {
+      "arg-dab744a4": {
+        "argumentId": "arg-dab744a4",
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Topicality",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "AFF's federal AI regulatory agency meets the threshold of 'substantially' increasing regulation",
+          "reasoning": "Establishing a new agency with mandatory auditing authority represents a categorical increase, not a marginal adjustment \u2014 analogous to creating the FDA or FAA",
+          "impact": "Plan clearly falls within the resolution; Topicality objections fail on both textual and functional grounds",
+          "evidenceSource": "Prior USFG regulatory precedent (FDA 1906, FAA 1958)"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-9c12567c": {
+        "argumentId": "arg-9c12567c",
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Inherency",
+        "stockCaseId": "sc-inh-regulatory-gap",
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "The status quo lacks a unified federal AI regulatory framework",
+          "reasoning": "Current AI oversight is fragmented across the FTC, NIST voluntary guidelines, and sector-specific rules \u2014 no single agency has cross-cutting jurisdiction over general-purpose AI",
+          "impact": "Structural regulatory gap means harms proliferate unchecked across industries",
+          "evidenceSource": "GAO Report on AI Regulation, 2023"
+        },
+        "enrichment": {
+          "evidenceQuality": "PeerReviewed",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-0d085a51": {
+        "argumentId": "arg-0d085a51",
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Harms",
+        "stockCaseId": "sc-harms-bias",
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "Unregulated AI causes systematic algorithmic bias in hiring, lending, and criminal justice",
+          "reasoning": "MIT and Stanford studies document 34% higher false positive rates for facial recognition on darker-skinned individuals; hiring algorithms trained on historical data replicate past discrimination",
+          "impact": "Millions of Americans face discriminatory outcomes from opaque AI systems with no recourse or accountability mechanism",
+          "evidenceSource": "Buolamwini & Gebru (2018), Stanford HAI Report 2023"
+        },
+        "enrichment": {
+          "evidenceQuality": "PeerReviewed",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-01579b53": {
+        "argumentId": "arg-01579b53",
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Harms",
+        "stockCaseId": "sc-harms-safety",
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "AI deployment without safety standards risks catastrophic failures in critical infrastructure",
+          "reasoning": "Competitive pressure drives labs to deploy before safety benchmarks are met; no single actor has unilateral incentive to slow down absent regulation",
+          "impact": "Autonomous AI systems in power grids, financial markets, and defense create systemic risk of cascading failures with civilizational consequences",
+          "evidenceSource": "Center for AI Safety (2023); Hinton, LeCun Congressional Testimony"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Catastrophic",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-044ce766": {
+        "argumentId": "arg-044ce766",
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Solvency",
+        "stockCaseId": "sc-solv-agency",
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "A federal AI regulatory agency with mandatory auditing solves the identified harms",
+          "reasoning": "Centralized technical expertise and mandatory transparency requirements enable consistent enforcement across all sectors; FDA/FAA precedent demonstrates federal agencies can reduce harm in complex technical domains",
+          "impact": "Structured oversight with enforcement powers demonstrably reduces systemic risks in analogous industries by 60\u201380%",
+          "evidenceSource": "FDA drug safety outcomes; FAA aviation safety record post-1958"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-c67942e4": {
+        "argumentId": "arg-c67942e4",
+        "speechId": "1NC",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "stockIssueTag": "Topicality",
+        "stockCaseId": "sc-t-substantially",
+        "rebuttalTargetIds": [
+          "aff-t-1"
+        ],
+        "core": {
+          "claim": "AFF's agency mechanism does not constitute 'substantially' increasing regulation under the best interpretation",
+          "reasoning": "AFF conflates categorical change with substantial change \u2014 creating a new agency is a structural move, but the regulatory burden imposed on AI developers is minimal absent specific rules with enforcement teeth",
+          "impact": "Non-topical plan allows AFF to claim credit for a new agency while avoiding the hard policy choices the resolution demands; judge should vote NEG on T",
+          "evidenceSource": "Resolution literature; past T precedent in AI regulation rounds"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [
+            "StrawMan"
+          ],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-02ae7072": {
+        "argumentId": "arg-02ae7072",
+        "speechId": "1NC",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "stockIssueTag": "Harms",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "aff-h-1"
+        ],
+        "core": {
+          "claim": "AFF's bias evidence is outdated and overstated; the market is self-correcting",
+          "reasoning": "The Buolamwini study used 2015-era models; modern LLMs show dramatically reduced bias. Industry standards bodies (Partnership on AI, MLCommons) are already developing bias benchmarks voluntarily",
+          "impact": "AFF's harms are diminishing in the status quo, eliminating the need for regulatory intervention",
+          "evidenceSource": "GPT-4 Fairness Evaluation (OpenAI, 2023); MLCommons benchmarks"
+        },
+        "enrichment": {
+          "evidenceQuality": "NewsSource",
+          "impactMagnitude": "Minor",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-336728ae": {
+        "argumentId": "arg-336728ae",
+        "speechId": "1NC",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "stockIssueTag": "Harms",
+        "stockCaseId": "sc-harms-neg-overregulation",
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "Federal AI overregulation drives US AI development offshore and cedes leadership to China",
+          "reasoning": "Stringent ex-ante regulation raises compliance costs and delays deployment. China's AI strategy is explicitly designed to exploit Western regulatory hesitation \u2014 US overregulation directly advantages Chinese AI labs operating without such constraints",
+          "impact": "Loss of US AI leadership has cascading national security implications and eliminates US ability to set global AI safety norms \u2014 the opposite of AFF's safety goals",
+          "evidenceSource": "CNAS China AI Competition Report (2023); NSCAI Final Report"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Catastrophic",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-0640ceb5": {
+        "argumentId": "arg-0640ceb5",
+        "speechId": "1NC",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "stockIssueTag": "Solvency",
+        "stockCaseId": "sc-solv-neg-inherency",
+        "rebuttalTargetIds": [
+          "aff-s-1"
+        ],
+        "core": {
+          "claim": "AFF's plan provides no unique solvency \u2014 existing mechanisms already address the identified harms",
+          "reasoning": "NIST AI RMF is being widely adopted voluntarily; FTC has existing enforcement authority over deceptive AI practices; sector regulators (OCC for banking, EEOC for employment) cover the specific applications AFF cites",
+          "impact": "Without unique solvency, AFF's new regulatory costs are pure overhead with no benefit \u2014 the net impact is negative",
+          "evidenceSource": "NIST AI RMF Adoption Survey (2023); FTC AI enforcement actions"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-e090d02f": {
+        "argumentId": "arg-e090d02f",
+        "speechId": "2AC",
+        "speakerId": "spk-2",
+        "side": "AFF",
+        "stockIssueTag": "Topicality",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "neg-t-1"
+        ],
+        "core": {
+          "claim": "NEG's Topicality shell strawmans AFF's plan \u2014 the agency would impose mandatory auditing with civil penalties, which is substantial by any definition",
+          "reasoning": "AFF plan text specifies mandatory pre-deployment audits with $10M/day non-compliance penalties \u2014 this is categorically 'substantial' regulatory burden. NEG ignores the enforcement mechanism entirely.",
+          "impact": "NEG's T shell collapses on its own terms once the plan text is read carefully \u2014 AFF is clearly topical",
+          "evidenceSource": "AFF Plan Text \u00a7 3(b)"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-304eaa28": {
+        "argumentId": "arg-304eaa28",
+        "speechId": "2AC",
+        "speakerId": "spk-2",
+        "side": "AFF",
+        "stockIssueTag": "Harms",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "neg-h-1"
+        ],
+        "core": {
+          "claim": "NEG's 'market self-correction' argument ignores that bias harms are happening now and voluntary standards have failed",
+          "reasoning": "Industry self-regulation has had 5 years to address algorithmic bias and has failed \u2014 Amazon disbanded its hiring AI after documented bias; COMPAS recidivism tool is still in use despite ProPublica expos\u00e9. Voluntary standards do not bind non-signatories.",
+          "impact": "Real people face real discrimination today; 'wait for the market' means accepting ongoing harm for indeterminate future improvement",
+          "evidenceSource": "ProPublica COMPAS Analysis (2016, still in use 2023); Amazon hiring AI shutdown"
+        },
+        "enrichment": {
+          "evidenceQuality": "NewsSource",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-8a8ed60d": {
+        "argumentId": "arg-8a8ed60d",
+        "speechId": "2AC",
+        "speakerId": "spk-2",
+        "side": "AFF",
+        "stockIssueTag": "Solvency",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "neg-s-1"
+        ],
+        "core": {
+          "claim": "Existing frameworks are voluntary and fragmented \u2014 AFF's mandatory unified framework provides unique solvency",
+          "reasoning": "NIST RMF has no enforcement mechanism; FTC authority is reactive not proactive; sector regulators lack AI-specific technical expertise. Only a dedicated agency with cross-cutting mandatory authority can address AI risks consistently.",
+          "impact": "The difference between voluntary guidance and mandatory enforcement is the difference between a suggestion and a law \u2014 only the latter produces reliable compliance",
+          "evidenceSource": "Administrative Law Review: Voluntary vs Mandatory Standards Compliance (2022)"
+        },
+        "enrichment": {
+          "evidenceQuality": "PeerReviewed",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-7bc8a34a": {
+        "argumentId": "arg-7bc8a34a",
+        "speechId": "2NC",
+        "speakerId": "spk-4",
+        "side": "NEG",
+        "stockIssueTag": "Harms",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "aff-h-3"
+        ],
+        "core": {
+          "claim": "AFF conflates isolated failures with systemic market failure requiring federal intervention",
+          "reasoning": "Amazon disbanded its hiring AI \u2014 proof the market self-corrected. COMPAS is one tool in one jurisdiction; alternatives exist and are being adopted. AFF cherry-picks failures while ignoring widespread AI benefits and voluntary improvements.",
+          "impact": "Selective evidence of market failure does not establish the systemic harm needed to justify federal regulatory infrastructure",
+          "evidenceSource": "AI Now Institute: Market Correction in AI (2023)"
+        },
+        "enrichment": {
+          "evidenceQuality": "NewsSource",
+          "impactMagnitude": "Minor",
+          "fallacies": [
+            "AppealToAuthority"
+          ],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-4425aef1": {
+        "argumentId": "arg-4425aef1",
+        "speechId": "2NC",
+        "speakerId": "spk-4",
+        "side": "NEG",
+        "stockIssueTag": "Solvency",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "aff-s-2"
+        ],
+        "core": {
+          "claim": "AFF's mandatory framework would be captured by industry and produce worse outcomes than the status quo",
+          "reasoning": "Every major federal regulatory agency has experienced regulatory capture \u2014 the FDA approves drugs industry-funded studies support; the FCC serves telecom incumbents. An AI agency would be staffed by ex-industry personnel and would entrench powerful incumbents against new entrants.",
+          "impact": "Regulatory capture turns AFF's solvency into a negative \u2014 mandatory framework benefits Big Tech at the expense of smaller AI developers and innovation",
+          "evidenceSource": "Stigler (1971) Regulatory Capture Theory; revolving door data from FCC, FDA"
+        },
+        "enrichment": {
+          "evidenceQuality": "PeerReviewed",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-2cdfd12a": {
+        "argumentId": "arg-2cdfd12a",
+        "speechId": "1NR",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "stockIssueTag": "Harms",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "aff-h-3"
+        ],
+        "core": {
+          "claim": "The geopolitical harm of overregulation outweighs AFF's domestic bias harms \u2014 extend NEG's China argument",
+          "reasoning": "AFF's bias harms affect thousands in specific contexts; NEG's national security harm affects hundreds of millions and the global balance of AI power. Magnitude comparison clearly favors NEG.",
+          "impact": "Even granting AFF's bias harms, the catastrophic geopolitical downside of regulatory overreach outweighs on magnitude and probability",
+          "evidenceSource": "NSCAI Final Report Ch. 4 (2021)"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Catastrophic",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-af0c63ba": {
+        "argumentId": "arg-af0c63ba",
+        "speechId": "1NR",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "stockIssueTag": "Solvency",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "aff-s-2"
+        ],
+        "core": {
+          "claim": "Extend regulatory capture argument \u2014 AFF has no answer to structural solvency deficits",
+          "reasoning": "AFF's 2AC solvency extension simply repeats 'mandatory is better than voluntary' without engaging capture. The question is not whether mandatory rules are binding but whether the agency making them will make good rules.",
+          "impact": "Unanswered regulatory capture argument means AFF's plan is equally likely to entrench bad AI practices as to fix them \u2014 solvency is at best a coin flip",
+          "evidenceSource": null
+        },
+        "enrichment": {
+          "evidenceQuality": "Anecdotal",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-ea4ff35d": {
+        "argumentId": "arg-ea4ff35d",
+        "speechId": "1AR",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Harms",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "neg-h-ext"
+        ],
+        "core": {
+          "claim": "Turn the geopolitical argument \u2014 US AI leadership requires demonstrating responsible development, not racing to the bottom",
+          "reasoning": "The EU AI Act demonstrates that allied democracies can set safety standards while maintaining competitiveness. China's AI advantage comes from data access and state investment, not lack of safety rules. AFF's framework lets the US set the global safety standard China must eventually meet.",
+          "impact": "A race-to-the-bottom on AI safety undermines US soft power and the ability to shape international AI norms \u2014 AFF's regulatory leadership is the real geopolitical advantage",
+          "evidenceSource": "EU AI Act competitive impact analysis; Brookings AI governance report"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-c313fe12": {
+        "argumentId": "arg-c313fe12",
+        "speechId": "1AR",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Solvency",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "neg-s-ext"
+        ],
+        "core": {
+          "claim": "Regulatory capture is a risk management problem, not a reason to have no regulation \u2014 AFF's plan includes independence provisions",
+          "reasoning": "AFF plan mandates civil society representation on the agency board, prohibits revolving door employment for 5 years, and requires public comment periods. These anti-capture provisions distinguish AFF's agency from legacy regulatory agencies NEG cites.",
+          "impact": "NEG's capture argument assumes the worst-case agency design; AFF's specific plan text addresses this directly",
+          "evidenceSource": "AFF Plan Text \u00a7\u00a7 4-6 (independence provisions)"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-4d39053b": {
+        "argumentId": "arg-4d39053b",
+        "speechId": "2NR",
+        "speakerId": "spk-4",
+        "side": "NEG",
+        "stockIssueTag": "Solvency",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "aff-s-ext"
+        ],
+        "core": {
+          "claim": "AFF's anti-capture provisions are aspirational and unenforceable \u2014 every agency has them; none work",
+          "reasoning": "The FCC has public comment requirements and revolving door restrictions. It is still captured. Independence provisions are window dressing \u2014 structural incentives for capture (technical expertise resides in industry) overwhelm formal rules.",
+          "impact": "AFF's 1AR answer to capture concedes the structural problem and offers only procedural solutions \u2014 not enough to solve",
+          "evidenceSource": "Coglianese (2012) on revolving door ineffectiveness; FCC case study"
+        },
+        "enrichment": {
+          "evidenceQuality": "PeerReviewed",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-31e97e27": {
+        "argumentId": "arg-31e97e27",
+        "speechId": "2AR",
+        "speakerId": "spk-2",
+        "side": "AFF",
+        "stockIssueTag": "Harms",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "neg-h-ext"
+        ],
+        "core": {
+          "claim": "Vote AFF on the clear Harms story \u2014 real bias harms happening now outweigh speculative geopolitical downsides",
+          "reasoning": "NEG's geopolitical impact requires a long causal chain: regulation \u2192 reduced US AI \u2192 China wins AI race \u2192 national security consequences. AFF's bias harms are direct and documented. Judges should prefer concrete, immediate harms over speculative impact chains.",
+          "impact": "Harms are real, evidence is peer-reviewed, and AFF solves. NEG's solvency arguments depend on a captured agency that AFF's plan specifically prevents.",
+          "evidenceSource": "Summary of round evidence"
+        },
+        "enrichment": {
+          "evidenceQuality": "PeerReviewed",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-4f4bb9a3": {
+        "argumentId": "arg-4f4bb9a3",
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Topicality",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "AFF's federal AI regulatory agency meets the threshold of 'substantially' increasing regulation",
+          "reasoning": "Establishing a new agency with mandatory auditing authority represents a categorical increase, not a marginal adjustment \u2014 analogous to creating the FDA or FAA",
+          "impact": "Plan clearly falls within the resolution; Topicality objections fail on both textual and functional grounds",
+          "evidenceSource": "Prior USFG regulatory precedent (FDA 1906, FAA 1958)"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-01ca26b9": {
+        "argumentId": "arg-01ca26b9",
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Inherency",
+        "stockCaseId": "sc-inh-regulatory-gap",
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "The status quo lacks a unified federal AI regulatory framework",
+          "reasoning": "Current AI oversight is fragmented across the FTC, NIST voluntary guidelines, and sector-specific rules \u2014 no single agency has cross-cutting jurisdiction over general-purpose AI",
+          "impact": "Structural regulatory gap means harms proliferate unchecked across industries",
+          "evidenceSource": "GAO Report on AI Regulation, 2023"
+        },
+        "enrichment": {
+          "evidenceQuality": "PeerReviewed",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-d7ee52e3": {
+        "argumentId": "arg-d7ee52e3",
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Harms",
+        "stockCaseId": "sc-harms-bias",
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "Unregulated AI causes systematic algorithmic bias in hiring, lending, and criminal justice",
+          "reasoning": "MIT and Stanford studies document 34% higher false positive rates for facial recognition on darker-skinned individuals; hiring algorithms trained on historical data replicate past discrimination",
+          "impact": "Millions of Americans face discriminatory outcomes from opaque AI systems with no recourse or accountability mechanism",
+          "evidenceSource": "Buolamwini & Gebru (2018), Stanford HAI Report 2023"
+        },
+        "enrichment": {
+          "evidenceQuality": "PeerReviewed",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-dea4ad26": {
+        "argumentId": "arg-dea4ad26",
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Harms",
+        "stockCaseId": "sc-harms-safety",
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "AI deployment without safety standards risks catastrophic failures in critical infrastructure",
+          "reasoning": "Competitive pressure drives labs to deploy before safety benchmarks are met; no single actor has unilateral incentive to slow down absent regulation",
+          "impact": "Autonomous AI systems in power grids, financial markets, and defense create systemic risk of cascading failures with civilizational consequences",
+          "evidenceSource": "Center for AI Safety (2023); Hinton, LeCun Congressional Testimony"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Catastrophic",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-ad471a4c": {
+        "argumentId": "arg-ad471a4c",
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "stockIssueTag": "Solvency",
+        "stockCaseId": "sc-solv-agency",
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "A federal AI regulatory agency with mandatory auditing solves the identified harms",
+          "reasoning": "Centralized technical expertise and mandatory transparency requirements enable consistent enforcement across all sectors; FDA/FAA precedent demonstrates federal agencies can reduce harm in complex technical domains",
+          "impact": "Structured oversight with enforcement powers demonstrably reduces systemic risks in analogous industries by 60\u201380%",
+          "evidenceSource": "FDA drug safety outcomes; FAA aviation safety record post-1958"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-0f85f682": {
+        "argumentId": "arg-0f85f682",
+        "speechId": "1NC",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "stockIssueTag": "Topicality",
+        "stockCaseId": "sc-t-substantially",
+        "rebuttalTargetIds": [
+          "aff-t-1"
+        ],
+        "core": {
+          "claim": "AFF's agency mechanism does not constitute 'substantially' increasing regulation under the best interpretation",
+          "reasoning": "AFF conflates categorical change with substantial change \u2014 creating a new agency is a structural move, but the regulatory burden imposed on AI developers is minimal absent specific rules with enforcement teeth",
+          "impact": "Non-topical plan allows AFF to claim credit for a new agency while avoiding the hard policy choices the resolution demands; judge should vote NEG on T",
+          "evidenceSource": "Resolution literature; past T precedent in AI regulation rounds"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [
+            "StrawMan"
+          ],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-72b926f7": {
+        "argumentId": "arg-72b926f7",
+        "speechId": "1NC",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "stockIssueTag": "Harms",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "aff-h-1"
+        ],
+        "core": {
+          "claim": "AFF's bias evidence is outdated and overstated; the market is self-correcting",
+          "reasoning": "The Buolamwini study used 2015-era models; modern LLMs show dramatically reduced bias. Industry standards bodies (Partnership on AI, MLCommons) are already developing bias benchmarks voluntarily",
+          "impact": "AFF's harms are diminishing in the status quo, eliminating the need for regulatory intervention",
+          "evidenceSource": "GPT-4 Fairness Evaluation (OpenAI, 2023); MLCommons benchmarks"
+        },
+        "enrichment": {
+          "evidenceQuality": "NewsSource",
+          "impactMagnitude": "Minor",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-d25b507a": {
+        "argumentId": "arg-d25b507a",
+        "speechId": "1NC",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "stockIssueTag": "Harms",
+        "stockCaseId": "sc-harms-neg-overregulation",
+        "rebuttalTargetIds": [],
+        "core": {
+          "claim": "Federal AI overregulation drives US AI development offshore and cedes leadership to China",
+          "reasoning": "Stringent ex-ante regulation raises compliance costs and delays deployment. China's AI strategy is explicitly designed to exploit Western regulatory hesitation \u2014 US overregulation directly advantages Chinese AI labs operating without such constraints",
+          "impact": "Loss of US AI leadership has cascading national security implications and eliminates US ability to set global AI safety norms \u2014 the opposite of AFF's safety goals",
+          "evidenceSource": "CNAS China AI Competition Report (2023); NSCAI Final Report"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Catastrophic",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-9e2c8765": {
+        "argumentId": "arg-9e2c8765",
+        "speechId": "1NC",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "stockIssueTag": "Solvency",
+        "stockCaseId": "sc-solv-neg-inherency",
+        "rebuttalTargetIds": [
+          "aff-s-1"
+        ],
+        "core": {
+          "claim": "AFF's plan provides no unique solvency \u2014 existing mechanisms already address the identified harms",
+          "reasoning": "NIST AI RMF is being widely adopted voluntarily; FTC has existing enforcement authority over deceptive AI practices; sector regulators (OCC for banking, EEOC for employment) cover the specific applications AFF cites",
+          "impact": "Without unique solvency, AFF's new regulatory costs are pure overhead with no benefit \u2014 the net impact is negative",
+          "evidenceSource": "NIST AI RMF Adoption Survey (2023); FTC AI enforcement actions"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      },
+      "arg-c3dcee9b": {
+        "argumentId": "arg-c3dcee9b",
+        "speechId": "2AC",
+        "speakerId": "spk-2",
+        "side": "AFF",
+        "stockIssueTag": "Topicality",
+        "stockCaseId": null,
+        "rebuttalTargetIds": [
+          "neg-t-1"
+        ],
+        "core": {
+          "claim": "NEG's Topicality shell strawmans AFF's plan \u2014 the agency would impose mandatory auditing with civil penalties, which is substantial by any definition",
+          "reasoning": "AFF plan text specifies mandatory pre-deployment audits with $10M/day non-compliance penalties \u2014 this is categorically 'substantial' regulatory burden. NEG ignores the enforcement mechanism entirely.",
+          "impact": "NEG's T shell collapses on its own terms once the plan text is read carefully \u2014 AFF is clearly topical",
+          "evidenceSource": "AFF Plan Text \u00a7 3(b)"
+        },
+        "enrichment": {
+          "evidenceQuality": "ExpertOpinion",
+          "impactMagnitude": "Significant",
+          "fallacies": [],
+          "argumentStrength": null,
+          "status": null
+        }
+      }
+    },
+    "crossExaminations": [
+      {
+        "cxId": "cx-1",
+        "afterSpeechId": "1AC",
+        "examinerId": "spk-3",
+        "respondentId": "spk-1",
+        "examinerSide": "NEG",
+        "respondentSide": "AFF",
+        "timeAllocatedSeconds": 180,
+        "timeUsedSeconds": 175,
+        "questions": [
+          {
+            "questionId": "cx1-q1",
+            "targetArgumentId": "aff-h-1",
+            "evasive": false,
+            "admissionExtracted": true,
+            "admissionNote": "AFF conceded Buolamwini study used 2015-era models, not current systems"
+          },
+          {
+            "questionId": "cx1-q2",
+            "targetArgumentId": "aff-s-1",
+            "evasive": true,
+            "admissionExtracted": false,
+            "admissionNote": null
+          },
+          {
+            "questionId": "cx1-q3",
+            "targetArgumentId": "aff-inh-1",
+            "evasive": false,
+            "admissionExtracted": false,
+            "admissionNote": null
+          }
+        ]
+      },
+      {
+        "cxId": "cx-2",
+        "afterSpeechId": "1NC",
+        "examinerId": "spk-2",
+        "respondentId": "spk-3",
+        "examinerSide": "AFF",
+        "respondentSide": "NEG",
+        "timeAllocatedSeconds": 180,
+        "timeUsedSeconds": 168,
+        "questions": [
+          {
+            "questionId": "cx2-q1",
+            "targetArgumentId": "neg-h-2",
+            "evasive": true,
+            "admissionExtracted": false,
+            "admissionNote": null
+          },
+          {
+            "questionId": "cx2-q2",
+            "targetArgumentId": "neg-s-1",
+            "evasive": false,
+            "admissionExtracted": true,
+            "admissionNote": "NEG conceded NIST RMF has no enforcement mechanism"
+          }
+        ]
+      }
+    ],
+    "prepTimeUsedSeconds": {
+      "AFF": 310,
+      "NEG": 405
+    }
+  },
+  "includeFullExplanation": true
+}

@@ -1,0 +1,206 @@
+{
+  "debate": {
+    "debateId": "round-001",
+    "roundId": "round-001",
+    "teams": {
+      "AFF": {
+        "teamId": "aff",
+        "side": "AFF",
+        "speakerIds": [
+          "spk-1",
+          "spk-2"
+        ]
+      },
+      "NEG": {
+        "teamId": "neg",
+        "side": "NEG",
+        "speakerIds": [
+          "spk-3",
+          "spk-4"
+        ]
+      }
+    },
+    "speakers": [
+      {
+        "speakerId": "spk-1",
+        "name": "Alice Chen",
+        "side": "AFF"
+      },
+      {
+        "speakerId": "spk-2",
+        "name": "Ben Nakamura",
+        "side": "AFF"
+      },
+      {
+        "speakerId": "spk-3",
+        "name": "Carol Okafor",
+        "side": "NEG"
+      },
+      {
+        "speakerId": "spk-4",
+        "name": "David Torres",
+        "side": "NEG"
+      }
+    ],
+    "speeches": [
+      {
+        "speechId": "1AC",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "timeAllocatedSeconds": 480,
+        "timeUsedSeconds": 471,
+        "argumentIds": [
+          "aff-t-1",
+          "aff-inh-1",
+          "aff-h-1",
+          "aff-h-2",
+          "aff-s-1"
+        ]
+      },
+      {
+        "speechId": "1NC",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "timeAllocatedSeconds": 480,
+        "timeUsedSeconds": 478,
+        "argumentIds": [
+          "neg-t-1",
+          "neg-h-1",
+          "neg-h-2",
+          "neg-s-1"
+        ]
+      },
+      {
+        "speechId": "2AC",
+        "speakerId": "spk-2",
+        "side": "AFF",
+        "timeAllocatedSeconds": 480,
+        "timeUsedSeconds": 465,
+        "argumentIds": [
+          "aff-t-ext",
+          "aff-h-3",
+          "aff-s-2"
+        ]
+      },
+      {
+        "speechId": "2NC",
+        "speakerId": "spk-4",
+        "side": "NEG",
+        "timeAllocatedSeconds": 480,
+        "timeUsedSeconds": 480,
+        "argumentIds": [
+          "neg-h-3",
+          "neg-s-2"
+        ]
+      },
+      {
+        "speechId": "1NR",
+        "speakerId": "spk-3",
+        "side": "NEG",
+        "timeAllocatedSeconds": 300,
+        "timeUsedSeconds": 298,
+        "argumentIds": [
+          "neg-h-ext",
+          "neg-s-ext"
+        ]
+      },
+      {
+        "speechId": "1AR",
+        "speakerId": "spk-1",
+        "side": "AFF",
+        "timeAllocatedSeconds": 300,
+        "timeUsedSeconds": 295,
+        "argumentIds": [
+          "aff-h-ext",
+          "aff-s-ext"
+        ]
+      },
+      {
+        "speechId": "2NR",
+        "speakerId": "spk-4",
+        "side": "NEG",
+        "timeAllocatedSeconds": 300,
+        "timeUsedSeconds": 285,
+        "argumentIds": [
+          "neg-final"
+        ]
+      },
+      {
+        "speechId": "2AR",
+        "speakerId": "spk-2",
+        "side": "AFF",
+        "timeAllocatedSeconds": 300,
+        "timeUsedSeconds": 299,
+        "argumentIds": [
+          "aff-final"
+        ]
+      }
+    ],
+    "crossExaminations": [
+      {
+        "cxId": "cx-1",
+        "afterSpeechId": "1AC",
+        "examinerId": "spk-3",
+        "respondentId": "spk-1",
+        "examinerSide": "NEG",
+        "respondentSide": "AFF",
+        "timeAllocatedSeconds": 180,
+        "timeUsedSeconds": 175,
+        "questions": [
+          {
+            "questionId": "cx1-q1",
+            "targetArgumentId": "aff-h-1",
+            "evasive": false,
+            "admissionExtracted": true,
+            "admissionNote": "AFF conceded Buolamwini study used 2015-era models, not current systems"
+          },
+          {
+            "questionId": "cx1-q2",
+            "targetArgumentId": "aff-s-1",
+            "evasive": true,
+            "admissionExtracted": false,
+            "admissionNote": null
+          },
+          {
+            "questionId": "cx1-q3",
+            "targetArgumentId": "aff-inh-1",
+            "evasive": false,
+            "admissionExtracted": false,
+            "admissionNote": null
+          }
+        ]
+      },
+      {
+        "cxId": "cx-2",
+        "afterSpeechId": "1NC",
+        "examinerId": "spk-2",
+        "respondentId": "spk-3",
+        "examinerSide": "AFF",
+        "respondentSide": "NEG",
+        "timeAllocatedSeconds": 180,
+        "timeUsedSeconds": 168,
+        "questions": [
+          {
+            "questionId": "cx2-q1",
+            "targetArgumentId": "neg-h-2",
+            "evasive": true,
+            "admissionExtracted": false,
+            "admissionNote": null
+          },
+          {
+            "questionId": "cx2-q2",
+            "targetArgumentId": "neg-s-1",
+            "evasive": false,
+            "admissionExtracted": true,
+            "admissionNote": "NEG conceded NIST RMF has no enforcement mechanism"
+          }
+        ]
+      }
+    ],
+    "prepTimeUsedSeconds": {
+      "AFF": 310,
+      "NEG": 405
+    }
+  },
+  "includeFullExplanation": true
+}

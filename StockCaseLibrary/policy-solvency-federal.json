@@ -1,0 +1,36 @@
+[
+  {
+    "stockCaseId": "sc-solv-agency",
+    "label": "Solvency — Federal AI Regulatory Agency",
+    "stockIssueTag": "Solvency",
+    "side": "AFF",
+    "source": "system",
+    "defaultEnrichment": {
+      "evidenceQuality": "ExpertOpinion",
+      "impactMagnitude": "Significant",
+      "fallacies": []
+    },
+    "blueprintArgument": {
+      "claim": "A dedicated federal AI regulatory agency with mandatory auditing powers solves the identified harms",
+      "reasoning": "Centralized technical expertise, enforcement authority, and mandatory transparency requirements create accountability that voluntary industry standards cannot achieve — analogous to the FDA for pharmaceuticals and the FAA for aviation safety",
+      "impact": "Structured federal oversight with real enforcement tools demonstrably reduces harm in analogous industries and creates a model for international AI governance"
+    }
+  },
+  {
+    "stockCaseId": "sc-solv-neg-inherency",
+    "label": "Solvency (NEG) — Status Quo Solves / No Unique Solvency",
+    "stockIssueTag": "Solvency",
+    "side": "NEG",
+    "source": "system",
+    "defaultEnrichment": {
+      "evidenceQuality": "ExpertOpinion",
+      "impactMagnitude": "Minor",
+      "fallacies": []
+    },
+    "blueprintArgument": {
+      "claim": "AFF's plan provides no solvency advantage over existing mechanisms already addressing AI harms",
+      "reasoning": "NIST AI Risk Management Framework, FTC enforcement authority, and existing sector-specific regulations already address the harms AFF identifies — additional federal regulation adds bureaucratic overhead without new capability",
+      "impact": "Without unique solvency, AFF's costs (innovation chilling, compliance burden) outweigh its benefits since the benefits already exist in the status quo"
+    }
+  }
+]

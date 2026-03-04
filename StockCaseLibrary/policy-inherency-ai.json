@@ -1,0 +1,19 @@
+[
+  {
+    "stockCaseId": "sc-inh-regulatory-gap",
+    "label": "Inherency — Regulatory Gap",
+    "stockIssueTag": "Inherency",
+    "side": "AFF",
+    "source": "system",
+    "defaultEnrichment": {
+      "evidenceQuality": "NewsSource",
+      "impactMagnitude": "Significant",
+      "fallacies": []
+    },
+    "blueprintArgument": {
+      "claim": "The status quo lacks comprehensive federal AI regulation, creating a structural regulatory gap",
+      "reasoning": "No single federal agency has jurisdiction over AI systems broadly — existing regulations are sector-specific, fragmented, and do not cover the cross-cutting risks of general-purpose AI",
+      "impact": "The regulatory gap means harmful AI systems can be deployed across industries with no unified accountability standard, causing the harms AFF identifies"
+    }
+  }
+]

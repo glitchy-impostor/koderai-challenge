@@ -1,0 +1,53 @@
+[
+  {
+    "stockCaseId": "sc-harms-bias",
+    "label": "Harms — Algorithmic Bias",
+    "stockIssueTag": "Harms",
+    "side": "AFF",
+    "source": "system",
+    "defaultEnrichment": {
+      "evidenceQuality": "PeerReviewed",
+      "impactMagnitude": "Significant",
+      "fallacies": []
+    },
+    "blueprintArgument": {
+      "claim": "Unregulated AI systems perpetuate and amplify systemic bias in high-stakes decisions",
+      "reasoning": "Peer-reviewed studies document disparate impact in AI-driven hiring, lending, housing, and criminal justice tools — disproportionately harming minorities and low-income individuals",
+      "impact": "Millions of people face discriminatory outcomes annually from opaque algorithmic systems with no accountability mechanism or avenue for redress"
+    }
+  },
+  {
+    "stockCaseId": "sc-harms-safety",
+    "label": "Harms — AI Safety Risks",
+    "stockIssueTag": "Harms",
+    "side": "AFF",
+    "source": "system",
+    "defaultEnrichment": {
+      "evidenceQuality": "ExpertOpinion",
+      "impactMagnitude": "Catastrophic",
+      "fallacies": []
+    },
+    "blueprintArgument": {
+      "claim": "Absent regulation, advanced AI deployment outpaces safety research and creates systemic risk",
+      "reasoning": "AI labs face competitive pressure to deploy before safety benchmarks are met — without external regulatory mandates, no single actor has incentive to slow down unilaterally",
+      "impact": "Deployment of insufficiently tested high-capability AI systems risks cascading failures in critical infrastructure, financial systems, and autonomous weapons contexts"
+    }
+  },
+  {
+    "stockCaseId": "sc-harms-neg-overregulation",
+    "label": "Harms (NEG) — Overregulation Stifles Innovation",
+    "stockIssueTag": "Harms",
+    "side": "NEG",
+    "source": "system",
+    "defaultEnrichment": {
+      "evidenceQuality": "ExpertOpinion",
+      "impactMagnitude": "Significant",
+      "fallacies": []
+    },
+    "blueprintArgument": {
+      "claim": "Heavy federal AI regulation causes the US to cede AI leadership to less regulated adversaries",
+      "reasoning": "Stringent ex-ante regulation raises compliance costs, delays deployment, and drives AI investment offshore — particularly to China where regulation is strategic rather than restrictive",
+      "impact": "Loss of US AI leadership has cascading national security implications and undermines the ability to set global AI safety norms"
+    }
+  }
+]
