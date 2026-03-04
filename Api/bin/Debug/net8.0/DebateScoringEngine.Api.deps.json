@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DebateScoringEngine.Api/1.0.0": {
+        "dependencies": {
+          "DebateScoringEngine.Core": "1.0.0"
+        },
+        "runtime": {
+          "DebateScoringEngine.Api.dll": {}
+        }
+      },
+      "DebateScoringEngine.Core/1.0.0": {
+        "runtime": {
+          "DebateScoringEngine.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DebateScoringEngine.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DebateScoringEngine.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
