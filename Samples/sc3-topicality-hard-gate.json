@@ -1,0 +1,630 @@
+{
+  "debateId": "sc3-topicality-gate",
+  "roundId": "round-001",
+  "teams": {
+    "AFF": {
+      "teamId": "aff",
+      "side": "AFF",
+      "speakerIds": [
+        "spk-1",
+        "spk-2"
+      ]
+    },
+    "NEG": {
+      "teamId": "neg",
+      "side": "NEG",
+      "speakerIds": [
+        "spk-3",
+        "spk-4"
+      ]
+    }
+  },
+  "speakers": [
+    {
+      "speakerId": "spk-1",
+      "name": "Alice Chen",
+      "side": "AFF"
+    },
+    {
+      "speakerId": "spk-2",
+      "name": "Ben Nakamura",
+      "side": "AFF"
+    },
+    {
+      "speakerId": "spk-3",
+      "name": "Carol Okafor",
+      "side": "NEG"
+    },
+    {
+      "speakerId": "spk-4",
+      "name": "David Torres",
+      "side": "NEG"
+    }
+  ],
+  "speeches": [
+    {
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 472,
+      "argumentIds": [
+        "aff-inh-1",
+        "aff-h-1",
+        "aff-s-1"
+      ]
+    },
+    {
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 479,
+      "argumentIds": [
+        "neg-t-1",
+        "neg-inh-1",
+        "neg-h-1",
+        "neg-s-1"
+      ]
+    },
+    {
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 478,
+      "argumentIds": [
+        "aff-h-ext",
+        "aff-inh-ext",
+        "aff-s-ext"
+      ]
+    },
+    {
+      "speechId": "2NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 476,
+      "argumentIds": [
+        "neg-t-ext",
+        "neg-h-ext"
+      ]
+    },
+    {
+      "speechId": "1NR",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 298,
+      "argumentIds": [
+        "neg-1nr-t"
+      ]
+    },
+    {
+      "speechId": "1AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 299,
+      "argumentIds": [
+        "aff-1ar-t",
+        "aff-1ar-h"
+      ]
+    },
+    {
+      "speechId": "2NR",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 297,
+      "argumentIds": [
+        "neg-2nr-t"
+      ]
+    },
+    {
+      "speechId": "2AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 296,
+      "argumentIds": [
+        "aff-2ar-h"
+      ]
+    }
+  ],
+  "arguments": {
+    "aff-inh-1": {
+      "argumentId": "aff-inh-1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Drone corridor regulations create a patchwork of 50 state laws that paralyze interstate commerce",
+        "reasoning": "Amazon, UPS, Wing have all cited regulatory fragmentation as the primary barrier to drone delivery deployment",
+        "impact": "800,000 drone delivery jobs and $15B in GDP remain unrealized due to regulatory patchwork",
+        "evidenceSource": "FAA BVLOS Working Group Report 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-h-1": {
+      "argumentId": "aff-h-1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Delayed drone delivery costs rural healthcare access\u2014medication and organ transport bottlenecked",
+        "reasoning": "Rural hospitals use drones for lab samples, blood, and medication; 34 states prohibit autonomous BVLOS, blocking medical drone networks",
+        "impact": "4,200 preventable deaths annually in rural areas where drone medical logistics could have delivered critical care supplies",
+        "evidenceSource": "JAMA Rural Health Drone Medical Delivery Study 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-s-1": {
+      "argumentId": "aff-s-1",
+      "speechId": "1AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Federal preemption via FAA authority creates a single national framework enabling drone infrastructure buildout",
+        "reasoning": "FAA Reauthorization Act 2023 already grants FAA authority; AFF's plan operationalizes it with mandatory BVLOS standards",
+        "impact": "Federal framework enables the 4 major carriers to deploy within 24 months; rural coverage reaches 90% within 5 years",
+        "evidenceSource": "FAA BVLOS Rulemaking 2023 / Industry Deployment Projections"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-t-1": {
+      "argumentId": "neg-t-1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "FAA preemption is a deregulatory action\u2014it removes state authority, which is not 'substantially increasing' federal regulation",
+        "reasoning": "Topicality violation: AFF's plan removes regulatory layers rather than adding new ones. Preemption displaces 50 state regulatory regimes\u2014net regulatory activity decreases.",
+        "impact": "T is a voting issue: limits, ground, and predictability all favor NEG's interpretation. AFF's definition makes every deregulatory action topical.",
+        "evidenceSource": "Administrative Law Review, Federal Preemption Doctrine 2022"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-inh-1": {
+      "argumentId": "neg-inh-1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "FAA has already begun rulemaking on BVLOS\u2014AFF's plan is happening in the status quo",
+        "reasoning": "FAA published BVLOS NPRM in 2023; final rule expected 2025; status quo solves without AFF",
+        "impact": "No inherency: the regulatory gap is being filled without a plan mandate",
+        "evidenceSource": "FAA BVLOS NPRM FR Vol 88 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-h-1": {
+      "argumentId": "neg-h-1",
+      "speechId": "1NC",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Drone collisions with manned aircraft pose a catastrophic safety risk that outweighs delivery benefits",
+        "reasoning": "FAA Near-Miss Database: 87 drone-aircraft near-misses in 2023; one collision at altitude could kill 200+ passengers",
+        "impact": "Rush to deploy drones without solved collision-avoidance risks a mass-casualty aviation accident",
+        "evidenceSource": "FAA UAS Integration Risk Assessment 2024"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-s-1": {
+      "argumentId": "neg-s-1",
+      "speechId": "1NC",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "State frameworks are not the real barrier\u2014airspace congestion management is unsolved at the federal level",
+        "reasoning": "Low-altitude airspace (50-400ft) lacks UTM (UAS Traffic Management) infrastructure; preempting states doesn't build UTM",
+        "impact": "AFF solves the wrong problem; real solvency requires UTM investment, not just preemption",
+        "evidenceSource": "NASA UTM Research Program 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-h-ext": {
+      "argumentId": "aff-h-ext",
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-h-1"
+      ],
+      "core": {
+        "claim": "NEG's aviation safety risk is already managed by AFF's plan\u2014mandatory detect-and-avoid systems",
+        "reasoning": "AFF's BVLOS standards require FAA-certified detect-and-avoid hardware; collision risk drops to <0.001% per flight hour (equivalent to commercial aviation)",
+        "impact": "Safety concern is a plan-included answer; drone safety standards are part of AFF's reform",
+        "evidenceSource": "FAA Detect-and-Avoid Standards Roadmap 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-inh-ext": {
+      "argumentId": "aff-inh-ext",
+      "speechId": "2AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-inh-1"
+      ],
+      "core": {
+        "claim": "FAA NPRM is years from implementation\u2014AFF's plan accelerates by mandating timeline",
+        "reasoning": "NPRMs take 3-7 years to finalize; rural patients are dying now; AFF compresses to 18-month implementation",
+        "impact": "Status quo NPRM process is too slow; urgency justifies the plan mandate",
+        "evidenceSource": "FAA Rulemaking Timeline Analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-s-ext": {
+      "argumentId": "aff-s-ext",
+      "speechId": "2AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-s-1"
+      ],
+      "core": {
+        "claim": "AFF's plan includes UTM buildout funding\u2014$500M in mandatory FAA infrastructure spending",
+        "reasoning": "Plan text explicitly includes UTM as a co-requirement; NEG strawmanned a preemption-only version",
+        "impact": "AFF solves both the regulatory and infrastructure barriers; UTM is plan-included",
+        "evidenceSource": "Plan Advocacy / NASA UTM Cost Estimates"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-t-ext": {
+      "argumentId": "neg-t-ext",
+      "speechId": "2NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "2AC dropped T entirely\u2014automatic voting issue. No response = concession under policy debate norms.",
+        "reasoning": "Dropped T shell: AFF had 480 seconds and spent zero of them on T. This is a concession in policy debate.",
+        "impact": "T is a voting issue and AFF has conceded it. Round over on T.",
+        "evidenceSource": "Policy Debate Norms / Merriam Drop Rule"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-h-ext": {
+      "argumentId": "neg-h-ext",
+      "speechId": "2NC",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-h-ext"
+      ],
+      "core": {
+        "claim": "Detect-and-avoid doesn't solve the flocking problem\u2014mass simultaneous drone launches overwhelm any system",
+        "reasoning": "Amazon Prime Air projects 500M packages by 2030 = millions of daily flights in urban airspace; no UTM handles this density",
+        "impact": "AFF's detect-and-avoid is designed for sparse traffic; the solvency vision creates the very congestion that crashes it",
+        "evidenceSource": "MIT Aeronautics UAS Density Study 2024"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-1nr-t": {
+      "argumentId": "neg-1nr-t",
+      "speechId": "1NR",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "T is a clean voting issue\u2014AFF never answered. Extend the shell. Round ends here.",
+        "reasoning": "Preemption = deregulation = non-topical by any reasonable interpretation. AFF's silence is damning.",
+        "impact": "T: extend neg-t-1 and neg-t-ext. AFF gets no new 2AR arguments\u2014they never engaged T.",
+        "evidenceSource": "Policy norms"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-1ar-t": {
+      "argumentId": "aff-1ar-t",
+      "speechId": "1AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-t-1"
+      ],
+      "core": {
+        "claim": "Plan adds new federal mandates\u2014preemption is a net increase in federal regulatory obligations",
+        "reasoning": "Federal preemption imposes standardized compliance requirements on all drone operators nationwide; states previously had no obligation to follow any uniform standard",
+        "impact": "Net federal regulatory activity increases under AFF\u2014plan satisfies the resolution",
+        "evidenceSource": "Administrative Law"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": "Extended"
+      }
+    },
+    "aff-1ar-h": {
+      "argumentId": "aff-1ar-h",
+      "speechId": "1AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-h-ext"
+      ],
+      "core": {
+        "claim": "MIT density study assumes unmanaged skies\u2014AFF's UTM directly addresses congestion management",
+        "reasoning": "UTM allocates flight corridors; density is managed by the system, not individual detect-and-avoid",
+        "impact": "NEG's density impact is a plan non-unique: only relevant absent UTM, which AFF provides",
+        "evidenceSource": "NASA UTM Traffic Flow Management"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-2nr-t": {
+      "argumentId": "neg-2nr-t",
+      "speechId": "2NR",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-1ar-t"
+      ],
+      "core": {
+        "claim": "1AR T answer is too little too late\u20142AC drop is the concession. 1AR is not 2AC.",
+        "reasoning": "Policy debate norm: drops in the relevant speech are concessions. AFF dropped T in 2AC\u2014the only speech that matters for answering a 1NC shell.",
+        "impact": "T voting issue stands: AFF's late answer in 1AR doesn't resurrect a dropped shell.",
+        "evidenceSource": "Policy Debate Flow Norms"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-2ar-h": {
+      "argumentId": "aff-2ar-h",
+      "speechId": "2AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-h-ext"
+      ],
+      "core": {
+        "claim": "Even if T is a voting issue, judge should use substance to inform T decision\u2014AFF has stronger ground",
+        "reasoning": "4,200 rural deaths vs. aviation risk: magnitude favors AFF; use this in T analysis",
+        "impact": "Substantive record shows AFF's position is correct even if T is close",
+        "evidenceSource": "Competing Harms Analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    }
+  },
+  "crossExaminations": [
+    {
+      "cxId": "cx-1",
+      "afterSpeechId": "1AC",
+      "examinerId": "spk-3",
+      "respondentId": "spk-1",
+      "examinerSide": "NEG",
+      "respondentSide": "AFF",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 175,
+      "questions": [
+        {
+          "questionId": "cx1-q1",
+          "targetArgumentId": "aff-s-1",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "AFF conceded UTM infrastructure is not currently funded"
+        },
+        {
+          "questionId": "cx1-q2",
+          "targetArgumentId": "aff-h-1",
+          "evasive": true,
+          "admissionExtracted": false,
+          "admissionNote": null
+        }
+      ]
+    },
+    {
+      "cxId": "cx-2",
+      "afterSpeechId": "1NC",
+      "examinerId": "spk-1",
+      "respondentId": "spk-3",
+      "examinerSide": "AFF",
+      "respondentSide": "NEG",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 170,
+      "questions": [
+        {
+          "questionId": "cx2-q1",
+          "targetArgumentId": "neg-t-1",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "NEG confirmed T interpretation: any net deregulation is non-topical"
+        },
+        {
+          "questionId": "cx2-q2",
+          "targetArgumentId": "neg-h-1",
+          "evasive": false,
+          "admissionExtracted": false,
+          "admissionNote": null
+        }
+      ]
+    },
+    {
+      "cxId": "cx-3",
+      "afterSpeechId": "2AC",
+      "examinerId": "spk-4",
+      "respondentId": "spk-2",
+      "examinerSide": "NEG",
+      "respondentSide": "AFF",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 168,
+      "questions": [
+        {
+          "questionId": "cx3-q1",
+          "targetArgumentId": "aff-s-ext",
+          "evasive": true,
+          "admissionExtracted": false,
+          "admissionNote": null
+        },
+        {
+          "questionId": "cx3-q2",
+          "targetArgumentId": "aff-inh-ext",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "AFF conceded 18-month timeline assumes no litigation delays"
+        }
+      ]
+    },
+    {
+      "cxId": "cx-4",
+      "afterSpeechId": "2NC",
+      "examinerId": "spk-2",
+      "respondentId": "spk-3",
+      "examinerSide": "AFF",
+      "respondentSide": "NEG",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 172,
+      "questions": [
+        {
+          "questionId": "cx4-q1",
+          "targetArgumentId": "neg-t-ext",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "NEG confirmed they are voting-issuing on T drop in 2AC"
+        }
+      ]
+    }
+  ],
+  "prepTimeUsedSeconds": {
+    "AFF": 460,
+    "NEG": 210
+  }
+}

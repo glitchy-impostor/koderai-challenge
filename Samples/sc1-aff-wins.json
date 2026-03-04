@@ -1,0 +1,801 @@
+{
+  "debateId": "sc1-aff-wins",
+  "roundId": "round-001",
+  "teams": {
+    "AFF": {
+      "teamId": "aff",
+      "side": "AFF",
+      "speakerIds": [
+        "spk-1",
+        "spk-2"
+      ]
+    },
+    "NEG": {
+      "teamId": "neg",
+      "side": "NEG",
+      "speakerIds": [
+        "spk-3",
+        "spk-4"
+      ]
+    }
+  },
+  "speakers": [
+    {
+      "speakerId": "spk-1",
+      "name": "Alice Chen",
+      "side": "AFF"
+    },
+    {
+      "speakerId": "spk-2",
+      "name": "Ben Nakamura",
+      "side": "AFF"
+    },
+    {
+      "speakerId": "spk-3",
+      "name": "Carol Okafor",
+      "side": "NEG"
+    },
+    {
+      "speakerId": "spk-4",
+      "name": "David Torres",
+      "side": "NEG"
+    }
+  ],
+  "speeches": [
+    {
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 471,
+      "argumentIds": [
+        "aff-t-1",
+        "aff-inh-1",
+        "aff-h-1",
+        "aff-h-2",
+        "aff-s-1",
+        "aff-s-2"
+      ]
+    },
+    {
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 478,
+      "argumentIds": [
+        "neg-t-1",
+        "neg-inh-1",
+        "neg-h-1",
+        "neg-s-1",
+        "neg-s-2"
+      ]
+    },
+    {
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 479,
+      "argumentIds": [
+        "aff-t-ext",
+        "aff-inh-ext",
+        "aff-h-ext-1",
+        "aff-s-ext-1"
+      ]
+    },
+    {
+      "speechId": "2NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 476,
+      "argumentIds": [
+        "neg-h-ext",
+        "neg-s-ext"
+      ]
+    },
+    {
+      "speechId": "1NR",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 298,
+      "argumentIds": [
+        "neg-1nr-h"
+      ]
+    },
+    {
+      "speechId": "1AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 299,
+      "argumentIds": [
+        "aff-1ar-t",
+        "aff-1ar-h",
+        "aff-1ar-s"
+      ]
+    },
+    {
+      "speechId": "2NR",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 297,
+      "argumentIds": [
+        "neg-2nr-s"
+      ]
+    },
+    {
+      "speechId": "2AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 298,
+      "argumentIds": [
+        "aff-2ar-h",
+        "aff-2ar-s"
+      ]
+    }
+  ],
+  "arguments": {
+    "aff-t-1": {
+      "argumentId": "aff-t-1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "The USFG's age-gating mandate meets the 'substantially increase' threshold",
+        "reasoning": "Age-verification for minors requires platform-wide architectural changes\u2014a categorical, not marginal, increase in regulatory burden",
+        "impact": "Plan falls squarely within the resolution; topicality objections fail on textual and functional grounds",
+        "evidenceSource": "FTC Regulatory Burden Analysis 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-inh-1": {
+      "argumentId": "aff-inh-1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "No meaningful federal law currently restricts minors' algorithmic exposure on social media",
+        "reasoning": "COPPA applies only to under-13; platforms self-regulate with proven inadequacy\u201473% of teens report algorithmic rabbit-holes",
+        "impact": "3 million US teens face unchecked algorithmic harm daily due to the regulatory gap",
+        "evidenceSource": "Pew Research Center Teen Social Media Survey 2024"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-h-1": {
+      "argumentId": "aff-h-1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Algorithmic amplification of harmful content causes measurable depression and anxiety in minors",
+        "reasoning": "Haidt & Rausch (2023) meta-analysis of 67 studies: screen time >3hrs correlates with 40% higher depression rates in girls 13-17",
+        "impact": "Suicide ideation rates among teen girls have risen 150% since 2012\u2014correlating precisely with smartphone/social media adoption",
+        "evidenceSource": "Haidt & Rausch, After Babel 2023 / CDC YRBS 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-h-2": {
+      "argumentId": "aff-h-2",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Social comparison features drive disordered eating in adolescent girls",
+        "reasoning": "Instagram's own internal research (leaked 2021) confirmed the platform 'makes body image issues worse for one in three teenage girls'",
+        "impact": "15 million adolescent girls in the US are at elevated risk for eating disorders from algorithm-driven social comparison",
+        "evidenceSource": "WSJ / Instagram Internal Research Leak 2021"
+      },
+      "enrichment": {
+        "evidenceQuality": "NewsSource",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-s-1": {
+      "argumentId": "aff-s-1",
+      "speechId": "1AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Mandatory age-verification plus algorithmic audit requirements demonstrably reduce harmful exposure",
+        "reasoning": "UK Age Appropriate Design Code (2021) reduced children's data collection by 88% within 18 months of implementation; similar outcomes projected for US",
+        "impact": "Federal mandate with FTC enforcement removes the self-regulation loophole; platforms comply when facing $50k/day penalties",
+        "evidenceSource": "UK ICO Children's Code Impact Assessment 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-s-2": {
+      "argumentId": "aff-s-2",
+      "speechId": "1AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Technology for compliant age-verification exists at scale without compromising adult privacy",
+        "reasoning": "Age estimation AI (Yoti, Veriff) achieves 98% accuracy without storing biometric data; UK and EU deployments validate this",
+        "impact": "Solvency mechanism is technically viable and does not create a new surveillance apparatus",
+        "evidenceSource": "Yoti Age Estimation Whitepaper 2023 / EU DSA Implementation Report"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-t-1": {
+      "argumentId": "neg-t-1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "'Substantially increase' requires quantifiable burden\u2014age-gating is regulatory restructuring, not increase",
+        "reasoning": "Black's Law Dictionary and FTC precedent define 'substantial' as 'material and measurable'\u2014no baseline metric establishes AFF's plan crosses this threshold",
+        "impact": "AFF's plan is non-topical; voting issue on T alone",
+        "evidenceSource": "Black's Law 11th Ed. / FTC Rulemaking Standards"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-inh-1": {
+      "argumentId": "neg-inh-1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "States are already filling the regulatory gap\u2014federal action causes preemption harms",
+        "reasoning": "Texas SCOPE Act, California AADC, and 12 other state laws already regulate minors on social media; federal mandate preempts more tailored solutions",
+        "impact": "Federal overreach displaces superior state-level regulation",
+        "evidenceSource": "NCSL State Social Media Law Tracker 2024"
+      },
+      "enrichment": {
+        "evidenceQuality": "NewsSource",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-h-1": {
+      "argumentId": "neg-h-1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Haidt's causal claims are methodologically contested\u2014correlation is not causation",
+        "reasoning": "Orben, Przybylski et al. (2019, 2022) replicated studies show effect sizes equivalent to eating potatoes\u2014not clinically meaningful",
+        "impact": "AFF's harms case collapses: no peer-reviewed consensus supports the causal chain from social media to teen mental health crisis",
+        "evidenceSource": "Orben & Przybylski, Nature Human Behaviour 2019 / 2022 replication"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-s-1": {
+      "argumentId": "neg-s-1",
+      "speechId": "1NC",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Age-verification mandates drive teens to unregulated platforms, making outcomes worse",
+        "reasoning": "UK evaluation of BBFC age-verification (2020): 72% of blocked users found workarounds within 2 weeks; VPN use among teens tripled",
+        "impact": "AFF's solvency mechanism produces whack-a-mole outcomes\u2014regulated platforms lose users to Telegram, Discord, unverified sites",
+        "evidenceSource": "BBFC Age Verification Implementation Review 2020"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-s-2": {
+      "argumentId": "neg-s-2",
+      "speechId": "1NC",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "FTC lacks enforcement capacity to police hundreds of platforms simultaneously",
+        "reasoning": "FTC has 1,100 staff to regulate the entire US economy; 430 social platforms exist; enforcement will be selective and ineffective",
+        "impact": "Underfunded enforcement produces compliance theater, not actual protection",
+        "evidenceSource": "FTC Annual Report 2023 / Platform Count: SensorTower"
+      },
+      "enrichment": {
+        "evidenceQuality": "NewsSource",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-t-ext": {
+      "argumentId": "aff-t-ext",
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-t-1"
+      ],
+      "core": {
+        "claim": "T flow: NEG's definition is artificially narrow\u2014FTC's own 2023 rulemaking uses 'substantially' to mean 'more than de minimis'",
+        "reasoning": "AFF's plan imposes affirmative duties on platforms, age-verification infrastructure, and algorithmic audit compliance\u2014each individually meets de minimis threshold",
+        "impact": "T is a non-issue; AFF is clearly topical by any reasonable interpretation; NEG is stalling on substance",
+        "evidenceSource": "FTC Advance Notice of Proposed Rulemaking, Commercial Surveillance 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-inh-ext": {
+      "argumentId": "aff-inh-ext",
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-inh-1"
+      ],
+      "core": {
+        "claim": "State patchwork is WORSE than the status quo\u201412 different standards create compliance nightmare and regulatory arbitrage",
+        "reasoning": "Texas blocked by federal courts; California AADC enjoined; state solutions have failed to survive First Amendment scrutiny",
+        "impact": "Federal standard provides certainty; state attempts have failed in court",
+        "evidenceSource": "NetChoice v. Paxton (5th Cir 2024); CCIA v. Bonta (9th Cir 2023)"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-h-ext-1": {
+      "argumentId": "aff-h-ext-1",
+      "speechId": "2AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-h-1"
+      ],
+      "core": {
+        "claim": "Orben/Przybylski critique cherry-picks across-group averages\u2014subgroup analysis shows severe effects on vulnerable populations",
+        "reasoning": "APA meta-analysis (2023): effect sizes for girls 13-15 are 3x larger than Orben reports; statistical suppression in aggregate masks the crisis",
+        "impact": "NEG's rebuttal depends on averaging away the most harmed group; the harm to 15M vulnerable teens stands",
+        "evidenceSource": "APA Adolescent Mental Health Review 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-s-ext-1": {
+      "argumentId": "aff-s-ext-1",
+      "speechId": "2AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-s-1"
+      ],
+      "core": {
+        "claim": "UK BBFC evidence is inapplicable\u2014that was a narrow adult content scheme, not a comprehensive platform mandate",
+        "reasoning": "AFF's mechanism differs: age-estimation (not blocking), algorithmic audit requirements, and positive duty to design for child safety\u2014far harder to route around",
+        "impact": "VPN workarounds don't solve algorithmic audit compliance; platforms can't offshore their algorithm to avoid audit",
+        "evidenceSource": "ICO Children's Code Assessment vs BBFC Comparison, Ofcom 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-h-ext": {
+      "argumentId": "neg-h-ext",
+      "speechId": "2NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-h-ext-1"
+      ],
+      "core": {
+        "claim": "APA 2023 itself acknowledges correlation\u2014AFF's extension conflates statistical significance with causal mechanism",
+        "reasoning": "RCT evidence (no passive social media RCTs exist for ethical reasons) is absent; all studies are observational",
+        "impact": "Without an RCT, AFF cannot establish the causal story required for solvency\u2014no harm uniquely solved",
+        "evidenceSource": "Twenge rebuttal; Valkenburg et al. Perspective Science 2022"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-s-ext": {
+      "argumentId": "neg-s-ext",
+      "speechId": "2NC",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-s-ext-1"
+      ],
+      "core": {
+        "claim": "Algorithmic audits are security theater\u2014platforms define 'harm' in audit scope, creating regulatory capture",
+        "reasoning": "Facebook's AI audit regime (2020-2023) was self-assessed; independent auditors found 70% of flagged content remained live",
+        "impact": "AFF's solvency depends on audits with no teeth\u2014corporate compliance teams will minimize scope",
+        "evidenceSource": "WSJ Facebook Algorithm Audit Investigation 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "NewsSource",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-1nr-h": {
+      "argumentId": "neg-1nr-h",
+      "speechId": "1NR",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-h-ext-1"
+      ],
+      "core": {
+        "claim": "Consolidate: NEG wins Harms\u2014no RCT, correlation \u2260 causation, AFF can't establish causal story",
+        "reasoning": "Even if AFF's correlation holds, algorithmic regulation doesn't solve if content consumption continues on unregulated platforms",
+        "impact": "Harms flow goes NEG: mechanism unclear, magnitude overstated, no uniqueness from federal vs state action",
+        "evidenceSource": "Extend neg-h-ext evidence"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-1ar-t": {
+      "argumentId": "aff-1ar-t",
+      "speechId": "1AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-t-1"
+      ],
+      "core": {
+        "claim": "T is conceded by NEG in 2NC\u2014no extension of neg-t-1; T is an AFF win",
+        "reasoning": "2NC went Harms/Solvency; T is dropped by NEG; extend AFF's ext from 2AC",
+        "impact": "T is off the table; AFF is topical; NEG's strategy concedes this flow",
+        "evidenceSource": "Flow analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": "Extended"
+      }
+    },
+    "aff-1ar-h": {
+      "argumentId": "aff-1ar-h",
+      "speechId": "1AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-1nr-h"
+      ],
+      "core": {
+        "claim": "RCT objection is a red herring\u2014medical science doesn't require RCTs for established correlations",
+        "reasoning": "No RCT exists for smoking and cancer causation (ethics); we accept that evidence. Same standard applies. APA 2023 uses Bradford-Hill criteria to establish causation without RCT",
+        "impact": "NEG's RCT demand is an impossible standard; AFF wins Harms on Bradford-Hill causation framework",
+        "evidenceSource": "Bradford-Hill Causation Criteria; APA 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-1ar-s": {
+      "argumentId": "aff-1ar-s",
+      "speechId": "1AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-s-ext"
+      ],
+      "core": {
+        "claim": "Audit capture: AFF mandates independent third-party audits with FTC final authority\u2014no self-assessment loophole",
+        "reasoning": "Extend ICO evidence: UK model used Ofcom (independent regulator) not platforms\u2014that's the AFF model, not the Facebook example",
+        "impact": "NEG's audit capture evidence applies to self-assessment regimes; AFF's mechanism is independent",
+        "evidenceSource": "Ofcom Algorithmic Audit Framework 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-2nr-s": {
+      "argumentId": "neg-2nr-s",
+      "speechId": "2NR",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-1ar-s"
+      ],
+      "core": {
+        "claim": "Even independent auditors fail: Ofcom's own 2023 review found 60% of audit recommendations unimplemented after 12 months",
+        "reasoning": "Independent audits are advisory; enforcement still requires FTC prosecution; regulatory lag means harms continue during litigation",
+        "impact": "AFF solvency is delayed by years of enforcement; harms continue\u2014NEG wins on timeframe",
+        "evidenceSource": "Ofcom Online Safety Act Compliance Review 2023 / FTC Enforcement Timeline Data"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-2ar-h": {
+      "argumentId": "aff-2ar-h",
+      "speechId": "2AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-1nr-h"
+      ],
+      "core": {
+        "claim": "Harms: extend AFF\u2014Bradford-Hill causation stands, NEG never contested the APA subgroup analysis showing 3x effect for vulnerable girls",
+        "reasoning": "NEG's only answer was 'no RCT'\u2014AFF answered that in 1AR with Bradford-Hill; NEG 2NR dropped Harms entirely; conceded",
+        "impact": "Harms flow is an AFF win\u2014NEG conceded in 2NR by not extending",
+        "evidenceSource": "Flow analysis: NEG 2NR is Solvency-only"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": "Extended"
+      }
+    },
+    "aff-2ar-s": {
+      "argumentId": "aff-2ar-s",
+      "speechId": "2AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-2nr-s"
+      ],
+      "core": {
+        "claim": "Solvency: Ofcom 2023 shows 60% compliance after 12 months\u2014that's substantial progress, not failure",
+        "reasoning": "60% compliance vs. 0% under status quo. Timeframe argument assumes a static harms scenario\u2014every day of 60% compliance prevents real harm",
+        "impact": "AFF wins on Solvency: partial solvency beats no solvency; NEG offers no counter-mechanism",
+        "evidenceSource": "Marginal solvency calculus"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    }
+  },
+  "crossExaminations": [
+    {
+      "cxId": "cx-1",
+      "afterSpeechId": "1AC",
+      "examinerId": "spk-3",
+      "respondentId": "spk-1",
+      "examinerSide": "NEG",
+      "respondentSide": "AFF",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 172,
+      "questions": [
+        {
+          "questionId": "cx1-q1",
+          "targetArgumentId": "aff-h-1",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "AFF conceded Haidt data is correlational"
+        },
+        {
+          "questionId": "cx1-q2",
+          "targetArgumentId": "aff-s-1",
+          "evasive": true,
+          "admissionExtracted": false,
+          "admissionNote": null
+        }
+      ]
+    },
+    {
+      "cxId": "cx-2",
+      "afterSpeechId": "1NC",
+      "examinerId": "spk-1",
+      "respondentId": "spk-3",
+      "examinerSide": "AFF",
+      "respondentSide": "NEG",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 168,
+      "questions": [
+        {
+          "questionId": "cx2-q1",
+          "targetArgumentId": "neg-h-1",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "NEG admitted Orben studies also correlational\u2014same epistemological standard"
+        },
+        {
+          "questionId": "cx2-q2",
+          "targetArgumentId": "neg-s-1",
+          "evasive": false,
+          "admissionExtracted": false,
+          "admissionNote": null
+        }
+      ]
+    },
+    {
+      "cxId": "cx-3",
+      "afterSpeechId": "2AC",
+      "examinerId": "spk-3",
+      "respondentId": "spk-1",
+      "examinerSide": "NEG",
+      "respondentSide": "AFF",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 175,
+      "questions": [
+        {
+          "questionId": "cx3-q1",
+          "targetArgumentId": "aff-h-ext-1",
+          "evasive": true,
+          "admissionExtracted": false,
+          "admissionNote": null
+        },
+        {
+          "questionId": "cx3-q2",
+          "targetArgumentId": "aff-s-ext-1",
+          "evasive": false,
+          "admissionExtracted": false,
+          "admissionNote": null
+        }
+      ]
+    },
+    {
+      "cxId": "cx-4",
+      "afterSpeechId": "2NC",
+      "examinerId": "spk-2",
+      "respondentId": "spk-3",
+      "examinerSide": "AFF",
+      "respondentSide": "NEG",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 170,
+      "questions": [
+        {
+          "questionId": "cx4-q1",
+          "targetArgumentId": "neg-s-ext",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "NEG admitted Facebook audit is self-assessed, distinct from AFF's independent audit model"
+        }
+      ]
+    }
+  ],
+  "prepTimeUsedSeconds": {
+    "AFF": 245,
+    "NEG": 380
+  }
+}

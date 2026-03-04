@@ -1,0 +1,739 @@
+{
+  "debateId": "sc2-neg-wins-weighted",
+  "roundId": "round-001",
+  "teams": {
+    "AFF": {
+      "teamId": "aff",
+      "side": "AFF",
+      "speakerIds": [
+        "spk-1",
+        "spk-2"
+      ]
+    },
+    "NEG": {
+      "teamId": "neg",
+      "side": "NEG",
+      "speakerIds": [
+        "spk-3",
+        "spk-4"
+      ]
+    }
+  },
+  "speakers": [
+    {
+      "speakerId": "spk-1",
+      "name": "Alice Chen",
+      "side": "AFF"
+    },
+    {
+      "speakerId": "spk-2",
+      "name": "Ben Nakamura",
+      "side": "AFF"
+    },
+    {
+      "speakerId": "spk-3",
+      "name": "Carol Okafor",
+      "side": "NEG"
+    },
+    {
+      "speakerId": "spk-4",
+      "name": "David Torres",
+      "side": "NEG"
+    }
+  ],
+  "speeches": [
+    {
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 478,
+      "argumentIds": [
+        "aff-t-1",
+        "aff-inh-1",
+        "aff-h-1",
+        "aff-s-1"
+      ]
+    },
+    {
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 479,
+      "argumentIds": [
+        "neg-t-1",
+        "neg-inh-1",
+        "neg-h-1",
+        "neg-s-1",
+        "neg-s-2"
+      ]
+    },
+    {
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 476,
+      "argumentIds": [
+        "aff-t-ext",
+        "aff-inh-ext",
+        "aff-h-ext",
+        "aff-s-ext"
+      ]
+    },
+    {
+      "speechId": "2NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 480,
+      "argumentIds": [
+        "neg-s-ext",
+        "neg-inh-ext"
+      ]
+    },
+    {
+      "speechId": "1NR",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 299,
+      "argumentIds": [
+        "neg-1nr-s"
+      ]
+    },
+    {
+      "speechId": "1AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 298,
+      "argumentIds": [
+        "aff-1ar-s",
+        "aff-1ar-h"
+      ]
+    },
+    {
+      "speechId": "2NR",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 296,
+      "argumentIds": [
+        "neg-2nr-s"
+      ]
+    },
+    {
+      "speechId": "2AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 295,
+      "argumentIds": [
+        "aff-2ar-h",
+        "aff-2ar-s"
+      ]
+    }
+  ],
+  "arguments": {
+    "aff-t-1": {
+      "argumentId": "aff-t-1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "AFF's nuclear licensing reform is a substantial increase in federal regulatory activity",
+        "reasoning": "NRC reform adds mandatory safety certifications, extended site approval windows, and new emergency protocol requirements",
+        "impact": "Plan is topical\u2014increases federal oversight of nuclear energy sector",
+        "evidenceSource": "NRC Regulatory Analysis 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-inh-1": {
+      "argumentId": "aff-inh-1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Current US nuclear regulations have stifled new plant construction for 40 years",
+        "reasoning": "No new nuclear plant has come online since 1996 (Watts Bar Unit 1); licensing takes 10-20 years vs 3-5 in France and South Korea",
+        "impact": "US nuclear capacity has flatlined while coal and gas continue providing baseload power",
+        "evidenceSource": "EIA Nuclear Outlook 2024"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-h-1": {
+      "argumentId": "aff-h-1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Continued fossil fuel dependence causes 350,000 US deaths annually from air pollution",
+        "reasoning": "EPA estimates 350,000 premature deaths from PM2.5 and NOx exposure; nuclear displacement of coal saves lives at scale",
+        "impact": "Every year without nuclear expansion is 350,000 preventable deaths\u2014nuclear is the safest energy source per TWh",
+        "evidenceSource": "EPA Air Quality Report 2023 / Our World in Data Energy Safety"
+      },
+      "enrichment": {
+        "evidenceQuality": "Anecdotal",
+        "impactMagnitude": "Minor",
+        "fallacies": [
+          "FalseDichotomy",
+          "SlipperySlope"
+        ],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-s-1": {
+      "argumentId": "aff-s-1",
+      "speechId": "1AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Streamlined licensing reduces time-to-operation from 15 to 5 years based on French and Korean models",
+        "reasoning": "France completed 56 reactors in 15 years under its standardized model; Korea's APR-1400 certified in 48 months",
+        "impact": "5 new plants could come online by 2035 under AFF's reform, displacing 180 GW of fossil capacity",
+        "evidenceSource": "World Nuclear Association Licensing Comparison 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "NewsSource",
+        "impactMagnitude": "Minor",
+        "fallacies": [
+          "AppealToAuthority"
+        ],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-t-1": {
+      "argumentId": "neg-t-1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Deregulatory reform is not an 'increase' in regulation\u2014AFF removes barriers, not adds them",
+        "reasoning": "Substantially increasing regulation means MORE rules, not FEWER; AFF's streamlining is the opposite of what the resolution requires",
+        "impact": "AFF is non-topical; this is a voting issue",
+        "evidenceSource": "Webster's and Black's Law definitions"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-inh-1": {
+      "argumentId": "neg-inh-1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Nuclear stagnation is market-driven, not regulatory\u2014investors won't build because costs exceed returns",
+        "reasoning": "Georgia Power's Vogtle Unit 3 cost $17B (4x estimate); investor capital has fled nuclear for cheaper solar and wind",
+        "impact": "Regulatory reform doesn't solve the economic calculus that killed nuclear",
+        "evidenceSource": "Bloomberg Nuclear Finance Review 2024"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-h-1": {
+      "argumentId": "neg-h-1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "AFF's air pollution harms are already being solved by renewable energy transition",
+        "reasoning": "Solar and wind are now cheaper than any fossil fuel (LCOE); grid decarbonization is happening without nuclear",
+        "impact": "No unique harm from nuclear inaction if renewables are displacing coal faster than nuclear could",
+        "evidenceSource": "Lazard LCOE Report 2024 / EIA Grid Decarbonization Data"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-s-1": {
+      "argumentId": "neg-s-1",
+      "speechId": "1NC",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "French and Korean models are not replicable in the US\u2014supply chain and workforce don't exist",
+        "reasoning": "US has no trained nuclear workforce pipeline; the last welding school closed in 2008; France and Korea maintained continuous construction programs",
+        "impact": "AFF's timeline assumes a skilled workforce that does not exist; 5-year projection is fantasy",
+        "evidenceSource": "Nuclear Energy Institute Workforce Report 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-s-2": {
+      "argumentId": "neg-s-2",
+      "speechId": "1NC",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Small Modular Reactors (SMRs)\u2014AFF's implicit technology\u2014have failed to reach commercial scale anywhere",
+        "reasoning": "NuScale, the only NRC-approved SMR, cancelled its first project in Nov 2023 due to cost overruns; no commercial SMR exists",
+        "impact": "AFF's solvency mechanism is unproven technology; the one real-world test case just failed",
+        "evidenceSource": "Reuters / NuScale Cancellation Nov 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-t-ext": {
+      "argumentId": "aff-t-ext",
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-t-1"
+      ],
+      "core": {
+        "claim": "Regulatory reform is still regulation\u2014adding safety requirements while streamlining process increases federal presence",
+        "reasoning": "AFF adds new audit requirements, standardized safety certifications, and federal site selection authority\u2014net increase in federal regulatory activity",
+        "impact": "T is not a voting issue; AFF clearly within the resolution",
+        "evidenceSource": "NRC Reform Proposal Text"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-inh-ext": {
+      "argumentId": "aff-inh-ext",
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-inh-1"
+      ],
+      "core": {
+        "claim": "Vogtle proves regulatory failure, not market failure\u2014cost overruns traced to shifting NRC requirements mid-construction",
+        "reasoning": "Congressional Research Service: 67% of Vogtle overruns attributable to regulatory change orders mid-build, not market dynamics",
+        "impact": "Regulatory certainty solves the investor problem; market will follow if uncertainty is removed",
+        "evidenceSource": "CRS Nuclear Cost Analysis 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-h-ext": {
+      "argumentId": "aff-h-ext",
+      "speechId": "2AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-h-1"
+      ],
+      "core": {
+        "claim": "Renewables can't provide firm baseload power\u2014nuclear is the only clean firm power source",
+        "reasoning": "Texas winter storm Uri killed 246 people when wind and solar failed; grid reliability requires 24/7 dispatchable clean power",
+        "impact": "Air pollution harms are unique to nuclear pathway\u2014renewables alone cannot decarbonize the grid reliably",
+        "evidenceSource": "ERCOT Post-Uri Analysis 2021"
+      },
+      "enrichment": {
+        "evidenceQuality": "Anecdotal",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [
+          "SlipperySlope"
+        ],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-s-ext": {
+      "argumentId": "aff-s-ext",
+      "speechId": "2AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-s-1"
+      ],
+      "core": {
+        "claim": "Workforce can be rebuilt\u2014AFF includes nuclear apprenticeship program funding in the plan",
+        "reasoning": "AFF's plan includes $2B workforce training provision; apprenticeship programs can produce 10,000 trained workers in 5 years",
+        "impact": "Workforce gap is a plan-included answer; NEG ignores this",
+        "evidenceSource": "DOE Nuclear Workforce Development Study 2022"
+      },
+      "enrichment": {
+        "evidenceQuality": "Anecdotal",
+        "impactMagnitude": "Minor",
+        "fallacies": [
+          "FalseDichotomy"
+        ],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-s-ext": {
+      "argumentId": "neg-s-ext",
+      "speechId": "2NC",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-s-ext"
+      ],
+      "core": {
+        "claim": "NuScale cancellation is the death knell for SMR economics\u2014Congress won't fund what the market rejected",
+        "reasoning": "NuScale's UAMPS project had DOE backing AND a guaranteed buyer and still couldn't make the numbers work; AFF's $2B workforce fund can't change nuclear economics",
+        "impact": "If NuScale fails with every advantage, AFF's reform fails a fortiori",
+        "evidenceSource": "NuScale 10-K Nov 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-inh-ext": {
+      "argumentId": "neg-inh-ext",
+      "speechId": "2NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-inh-ext"
+      ],
+      "core": {
+        "claim": "CRS finding is contested\u2014Vogtle overruns began before regulatory changes; first-of-a-kind construction costs are universal",
+        "reasoning": "Every country building its first new reactor in decades faces the same overruns (UK Hinkley Point C: 3x estimate)",
+        "impact": "Regulatory certainty doesn't solve construction cost inflation\u2014this is an industry-wide phenomenon",
+        "evidenceSource": "Hinkley Point C Cost Review 2023 / IAEA Construction Cost Analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-1nr-s": {
+      "argumentId": "neg-1nr-s",
+      "speechId": "1NR",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-s-ext"
+      ],
+      "core": {
+        "claim": "Consolidate NEG Solvency: workforce, SMR failure, and economic calculus are each independent reasons AFF can't solve",
+        "reasoning": "Even if AFF trains workers, they have nothing to build; NuScale is dead; large reactors cost $15-20B each; no utility will commit",
+        "impact": "NEG wins Solvency 3-0: workforce gap, unproven tech, investor flight",
+        "evidenceSource": "Extend all NEG Solvency evidence"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-1ar-s": {
+      "argumentId": "aff-1ar-s",
+      "speechId": "1AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-1nr-s"
+      ],
+      "core": {
+        "claim": "Large conventional reactors don't need SMRs\u2014AFF's plan works for AP1000 standardized large reactors",
+        "reasoning": "Westinghouse AP1000 is NRC-approved, Korea is building 4 of them right now, Chinese deployments are online",
+        "impact": "NEG's SMR objection is a straw man; AFF never specified SMRs; large standardized reactors are the solvency mechanism",
+        "evidenceSource": "WNA AP1000 Deployment Status 2024"
+      },
+      "enrichment": {
+        "evidenceQuality": "NewsSource",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-1ar-h": {
+      "argumentId": "aff-1ar-h",
+      "speechId": "1AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-h-1"
+      ],
+      "core": {
+        "claim": "Uri proves renewables are insufficient for grid reliability\u2014extend AFF Harms, NEG concedes unique need for firm clean power",
+        "reasoning": "NEG's renewable answer ignores dispatchability problem; AFF's harms stand",
+        "impact": "Harms flow to AFF: 350K deaths, unique nuclear pathway, renewables can't solve alone",
+        "evidenceSource": "ERCOT Analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "NewsSource",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-2nr-s": {
+      "argumentId": "neg-2nr-s",
+      "speechId": "2NR",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-1ar-s"
+      ],
+      "core": {
+        "claim": "AP1000 answer: Korea's 4 reactors took 12 years, not 5; US has no standardized construction pipeline",
+        "reasoning": "Korean KEPCO is a state-owned enterprise with 50 years of continuous construction; US private utilities have none of this",
+        "impact": "AFF's AP1000 pivot still requires a workforce and supply chain that doesn't exist in US private market",
+        "evidenceSource": "KEPCO Annual Report 2023 / US Private Nuclear Market Analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-2ar-h": {
+      "argumentId": "aff-2ar-h",
+      "speechId": "2AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-h-1"
+      ],
+      "core": {
+        "claim": "Extend Harms: NEG's 2NR is Solvency-only; Harms is conceded\u2014350K deaths, unique nuclear pathway",
+        "reasoning": "NEG dropped Uri and dispatchability in 2NR; renewable uniqueness answer is gone",
+        "impact": "AFF wins Harms cleanly",
+        "evidenceSource": "Flow analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "Anecdotal",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": "Extended"
+      }
+    },
+    "aff-2ar-s": {
+      "argumentId": "aff-2ar-s",
+      "speechId": "2AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-2nr-s"
+      ],
+      "core": {
+        "claim": "Solvency: Korean timeline is 12 years but delivers; AFF's 2035 target assumes 10-12 year build\u2014consistent with reality",
+        "reasoning": "AFF never promised 5 years for AP1000; that was 1AC SMR language NEG is misrepresenting; 2035 is achievable",
+        "impact": "Even partial solvency\u20142 plants by 2035\u2014displaces 40 GW of coal and saves 50,000 lives",
+        "evidenceSource": "Marginal solvency calculus"
+      },
+      "enrichment": {
+        "evidenceQuality": "Anecdotal",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    }
+  },
+  "crossExaminations": [
+    {
+      "cxId": "cx-1",
+      "afterSpeechId": "1AC",
+      "examinerId": "spk-3",
+      "respondentId": "spk-1",
+      "examinerSide": "NEG",
+      "respondentSide": "AFF",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 178,
+      "questions": [
+        {
+          "questionId": "cx1-q1",
+          "targetArgumentId": "aff-s-1",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "AFF conceded French model required continuous construction since 1970s\u2014US hasn't built in 25 years"
+        },
+        {
+          "questionId": "cx1-q2",
+          "targetArgumentId": "aff-h-1",
+          "evasive": true,
+          "admissionExtracted": false,
+          "admissionNote": null
+        }
+      ]
+    },
+    {
+      "cxId": "cx-2",
+      "afterSpeechId": "1NC",
+      "examinerId": "spk-2",
+      "respondentId": "spk-3",
+      "examinerSide": "AFF",
+      "respondentSide": "NEG",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 175,
+      "questions": [
+        {
+          "questionId": "cx2-q1",
+          "targetArgumentId": "neg-s-2",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "NEG admitted NuScale had DOE backing\u2014market failure was still total"
+        },
+        {
+          "questionId": "cx2-q2",
+          "targetArgumentId": "neg-h-1",
+          "evasive": false,
+          "admissionExtracted": false,
+          "admissionNote": null
+        }
+      ]
+    },
+    {
+      "cxId": "cx-3",
+      "afterSpeechId": "2AC",
+      "examinerId": "spk-4",
+      "respondentId": "spk-2",
+      "examinerSide": "NEG",
+      "respondentSide": "AFF",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 176,
+      "questions": [
+        {
+          "questionId": "cx3-q1",
+          "targetArgumentId": "aff-s-ext",
+          "evasive": true,
+          "admissionExtracted": false,
+          "admissionNote": null
+        },
+        {
+          "questionId": "cx3-q2",
+          "targetArgumentId": "aff-inh-ext",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "AFF conceded CRS 67% figure is contested in the literature"
+        }
+      ]
+    },
+    {
+      "cxId": "cx-4",
+      "afterSpeechId": "2NC",
+      "examinerId": "spk-1",
+      "respondentId": "spk-4",
+      "examinerSide": "AFF",
+      "respondentSide": "NEG",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 172,
+      "questions": [
+        {
+          "questionId": "cx4-q1",
+          "targetArgumentId": "neg-s-ext",
+          "evasive": false,
+          "admissionExtracted": false,
+          "admissionNote": null
+        }
+      ]
+    }
+  ],
+  "prepTimeUsedSeconds": {
+    "AFF": 420,
+    "NEG": 290
+  }
+}

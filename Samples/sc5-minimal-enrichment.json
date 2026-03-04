@@ -1,0 +1,465 @@
+{
+  "debateId": "sc5-minimal-enrichment",
+  "roundId": "round-001",
+  "teams": {
+    "AFF": {
+      "teamId": "aff",
+      "side": "AFF",
+      "speakerIds": [
+        "spk-1",
+        "spk-2"
+      ]
+    },
+    "NEG": {
+      "teamId": "neg",
+      "side": "NEG",
+      "speakerIds": [
+        "spk-3",
+        "spk-4"
+      ]
+    }
+  },
+  "speakers": [
+    {
+      "speakerId": "spk-1",
+      "name": "Alice Chen",
+      "side": "AFF"
+    },
+    {
+      "speakerId": "spk-2",
+      "name": "Ben Nakamura",
+      "side": "AFF"
+    },
+    {
+      "speakerId": "spk-3",
+      "name": "Carol Okafor",
+      "side": "NEG"
+    },
+    {
+      "speakerId": "spk-4",
+      "name": "David Torres",
+      "side": "NEG"
+    }
+  ],
+  "speeches": [
+    {
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 400,
+      "argumentIds": [
+        "a1",
+        "a2",
+        "a3"
+      ]
+    },
+    {
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 380,
+      "argumentIds": [
+        "b1",
+        "b2"
+      ]
+    },
+    {
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 350,
+      "argumentIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    {
+      "speechId": "2NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 290,
+      "argumentIds": [
+        "d1"
+      ]
+    },
+    {
+      "speechId": "1NR",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 240,
+      "argumentIds": [
+        "e1"
+      ]
+    },
+    {
+      "speechId": "1AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 295,
+      "argumentIds": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "speechId": "2NR",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 180,
+      "argumentIds": [
+        "g1"
+      ]
+    },
+    {
+      "speechId": "2AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 285,
+      "argumentIds": [
+        "h1",
+        "h2"
+      ]
+    }
+  ],
+  "arguments": {
+    "a1": {
+      "argumentId": "a1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "AFF plan is topical",
+        "reasoning": "Plan meets resolution threshold",
+        "impact": "T satisfied",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "a2": {
+      "argumentId": "a2",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Status quo causes significant harm",
+        "reasoning": "Evidence supports harm claim",
+        "impact": "Lives at risk",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "a3": {
+      "argumentId": "a3",
+      "speechId": "1AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Plan solves the harm",
+        "reasoning": "Mechanism is effective",
+        "impact": "Harm is eliminated",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "b1": {
+      "argumentId": "b1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "a2"
+      ],
+      "core": {
+        "claim": "Harm is overstated",
+        "reasoning": "Counter-evidence",
+        "impact": "Impact is minor",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "b2": {
+      "argumentId": "b2",
+      "speechId": "1NC",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "a3"
+      ],
+      "core": {
+        "claim": "Plan cannot solve",
+        "reasoning": "Mechanism is flawed",
+        "impact": "No benefit",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "c1": {
+      "argumentId": "c1",
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "b1"
+      ],
+      "core": {
+        "claim": "NEG underestimates harm magnitude",
+        "reasoning": "AFF evidence is stronger",
+        "impact": "Harm stands",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "c2": {
+      "argumentId": "c2",
+      "speechId": "2AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "b2"
+      ],
+      "core": {
+        "claim": "Mechanism works as designed",
+        "reasoning": "Empirical precedent",
+        "impact": "Harm is solved",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "d1": {
+      "argumentId": "d1",
+      "speechId": "2NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "c2"
+      ],
+      "core": {
+        "claim": "Precedent doesn't apply",
+        "reasoning": "Context is different",
+        "impact": "Plan fails",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "e1": {
+      "argumentId": "e1",
+      "speechId": "1NR",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "c2"
+      ],
+      "core": {
+        "claim": "Extend solvency block",
+        "reasoning": "All counter-evidence stands",
+        "impact": "NEG wins Solvency",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "f1": {
+      "argumentId": "f1",
+      "speechId": "1AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Extend Harms\u2014NEG 2NC dropped it",
+        "reasoning": "Conceded harm",
+        "impact": "AFF wins Harms",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "f2": {
+      "argumentId": "f2",
+      "speechId": "1AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "e1"
+      ],
+      "core": {
+        "claim": "Precedent applies\u2014context is similar",
+        "reasoning": "AFF mechanism is sound",
+        "impact": "Solves",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "g1": {
+      "argumentId": "g1",
+      "speechId": "2NR",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "f2"
+      ],
+      "core": {
+        "claim": "Solvency goes NEG",
+        "reasoning": "Context distinction is decisive",
+        "impact": "No solvency for AFF",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "h1": {
+      "argumentId": "h1",
+      "speechId": "2AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Extend Harms\u2014conceded in 2NR",
+        "reasoning": "68K deaths equivalent",
+        "impact": "AFF wins on Harms",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "h2": {
+      "argumentId": "h2",
+      "speechId": "2AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "g1"
+      ],
+      "core": {
+        "claim": "Partial solvency beats no solvency",
+        "reasoning": "Even 50% solve is sufficient",
+        "impact": "AFF wins round",
+        "evidenceSource": null
+      },
+      "enrichment": {
+        "evidenceQuality": null,
+        "impactMagnitude": null,
+        "fallacies": null,
+        "argumentStrength": null,
+        "status": null
+      }
+    }
+  },
+  "crossExaminations": [],
+  "prepTimeUsedSeconds": {
+    "AFF": 120,
+    "NEG": 120
+  }
+}

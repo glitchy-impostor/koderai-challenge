@@ -1,0 +1,615 @@
+{
+  "debateId": "sc4-drop-heavy-aff-wins",
+  "roundId": "round-001",
+  "teams": {
+    "AFF": {
+      "teamId": "aff",
+      "side": "AFF",
+      "speakerIds": [
+        "spk-1",
+        "spk-2"
+      ]
+    },
+    "NEG": {
+      "teamId": "neg",
+      "side": "NEG",
+      "speakerIds": [
+        "spk-3",
+        "spk-4"
+      ]
+    }
+  },
+  "speakers": [
+    {
+      "speakerId": "spk-1",
+      "name": "Alice Chen",
+      "side": "AFF"
+    },
+    {
+      "speakerId": "spk-2",
+      "name": "Ben Nakamura",
+      "side": "AFF"
+    },
+    {
+      "speakerId": "spk-3",
+      "name": "Carol Okafor",
+      "side": "NEG"
+    },
+    {
+      "speakerId": "spk-4",
+      "name": "David Torres",
+      "side": "NEG"
+    }
+  ],
+  "speeches": [
+    {
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 475,
+      "argumentIds": [
+        "aff-t-1",
+        "aff-inh-1",
+        "aff-inh-2",
+        "aff-h-1",
+        "aff-h-2",
+        "aff-s-1",
+        "aff-s-2"
+      ]
+    },
+    {
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 470,
+      "argumentIds": [
+        "neg-t-1",
+        "neg-h-1"
+      ]
+    },
+    {
+      "speechId": "2AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 479,
+      "argumentIds": [
+        "aff-1ar-t"
+      ]
+    },
+    {
+      "speechId": "2NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 480,
+      "timeUsedSeconds": 472,
+      "argumentIds": [
+        "neg-t-ext"
+      ]
+    },
+    {
+      "speechId": "1NR",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 295,
+      "argumentIds": [
+        "neg-1nr-t"
+      ]
+    },
+    {
+      "speechId": "1AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 300,
+      "argumentIds": [
+        "aff-1ar-t",
+        "aff-1ar-inh",
+        "aff-1ar-h",
+        "aff-1ar-s"
+      ]
+    },
+    {
+      "speechId": "2NR",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 293,
+      "argumentIds": [
+        "neg-2nr-t"
+      ]
+    },
+    {
+      "speechId": "2AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "timeAllocatedSeconds": 300,
+      "timeUsedSeconds": 299,
+      "argumentIds": [
+        "aff-2ar"
+      ]
+    }
+  ],
+  "arguments": {
+    "aff-t-1": {
+      "argumentId": "aff-t-1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Universal healthcare clearly qualifies as substantially increasing federal health regulation",
+        "reasoning": "ACA expansion set the precedent; single-payer is a categorical expansion of federal health authority",
+        "impact": "Topicality is met; any good-faith reading of the resolution includes M4A",
+        "evidenceSource": "CRS Federal Health Regulatory Scope 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-inh-1": {
+      "argumentId": "aff-inh-1",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "45 million Americans are uninsured despite the ACA\u2014the gap is structural, not behavioral",
+        "reasoning": "ACA Medicaid gap leaves 12M uninsured in non-expansion states; employer-sponsored insurance excludes gig workers",
+        "impact": "The current system has an unfixable architecture: coverage tied to employment fails in a gig economy",
+        "evidenceSource": "Kaiser Family Foundation Uninsured Report 2024"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-inh-2": {
+      "argumentId": "aff-inh-2",
+      "speechId": "1AC",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Medical debt is the leading cause of personal bankruptcy\u2014a uniquely American problem",
+        "reasoning": "66% of all US personal bankruptcies cite medical debt as primary cause; Canada, UK, Germany have near-zero medical bankruptcies",
+        "impact": "The status quo financially destroys families despite technically having insurance",
+        "evidenceSource": "JAMA Medical Debt and Bankruptcy 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-h-1": {
+      "argumentId": "aff-h-1",
+      "speechId": "1AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "68,000 Americans die annually from lack of health insurance\u2014preventable deaths",
+        "reasoning": "Harvard Medical School study: uninsured mortality risk 40% higher than insured; extrapolated to 68K preventable deaths/year",
+        "impact": "This is a solved problem in every peer nation; the US uniquely tolerates preventable mortality",
+        "evidenceSource": "NEJM Insurance Status and Mortality 2022"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-h-2": {
+      "argumentId": "aff-h-2",
+      "speechId": "1AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Employer-sponsored insurance suppresses labor mobility and innovation",
+        "reasoning": "Job-lock: 25% of workers report staying in jobs they'd leave if not for insurance; reduces entrepreneurship by 30%",
+        "impact": "The insurance-employment link is a structural tax on American dynamism",
+        "evidenceSource": "NBER Health Insurance and Job Mobility 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-s-1": {
+      "argumentId": "aff-s-1",
+      "speechId": "1AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Single-payer achieves 30-40% administrative savings by eliminating multi-payer overhead",
+        "reasoning": "Canada's single-payer saves 30% on administration vs US multi-payer; CBO projects $650B in savings under M4A",
+        "impact": "The savings fund universal coverage; M4A is revenue-neutral or positive over 10 years",
+        "evidenceSource": "CBO M4A Fiscal Analysis 2022 / Himmelstein Administrative Cost Study"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-s-2": {
+      "argumentId": "aff-s-2",
+      "speechId": "1AC",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Countries with universal coverage achieve better outcomes at lower cost\u2014the empirical record is clear",
+        "reasoning": "OECD health outcomes: US ranks 27th in life expectancy while spending 2x per capita vs. universal-coverage nations",
+        "impact": "The empirical case for single-payer is overwhelming: better outcomes, lower cost, every time",
+        "evidenceSource": "OECD Health Statistics 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-t-1": {
+      "argumentId": "neg-t-1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "M4A eliminates private insurance\u2014that's not 'increasing' federal regulation, it's nationalization",
+        "reasoning": "Substantially increasing regulation means adding rules to existing markets; M4A abolishes the market",
+        "impact": "T violation: abolition \u2260 regulation",
+        "evidenceSource": "Administrative Law Doctrine"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-h-1": {
+      "argumentId": "neg-h-1",
+      "speechId": "1NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Harvard mortality study overestimates by conflating lack of insurance with lack of access",
+        "reasoning": "25% of uninsured are young and healthy; charitable and emergency care provides a safety net",
+        "impact": "68K figure is inflated; effective uninsured mortality rate is much lower",
+        "evidenceSource": "AEI Healthcare Access Report 2023"
+      },
+      "enrichment": {
+        "evidenceQuality": "NewsSource",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-t-ext": {
+      "argumentId": "neg-t-ext",
+      "speechId": "2NC",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Extend T: M4A is nationalization of healthcare, not regulation of it",
+        "reasoning": "The distinction between regulating a market and abolishing it is fundamental to administrative law",
+        "impact": "T is a voting issue; if AFF can't solve T, the round ends",
+        "evidenceSource": "Administrative Law"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "neg-1nr-t": {
+      "argumentId": "neg-1nr-t",
+      "speechId": "1NR",
+      "speakerId": "spk-4",
+      "side": "NEG",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Go for T: it's the cleanest voting issue; NEG wins T on limits and ground",
+        "reasoning": "AFF's world makes every nationalization proposal topical; that's an absurd limit",
+        "impact": "T decides the round; all substance is irrelevant",
+        "evidenceSource": "Policy debate norms"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-1ar-t": {
+      "argumentId": "aff-1ar-t",
+      "speechId": "1AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-t-1",
+        "neg-t-ext"
+      ],
+      "core": {
+        "claim": "M4A imposes mandatory federal participation requirements\u2014a substantial increase in federal health regulation",
+        "reasoning": "Every provider must register; every citizen must enroll; compliance obligations multiply under M4A",
+        "impact": "T is answered: net increase in federal regulatory obligations across the entire healthcare sector",
+        "evidenceSource": "M4A Bill Text Analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Minor",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-1ar-inh": {
+      "argumentId": "aff-1ar-inh",
+      "speechId": "1AR",
+      "speakerId": "spk-1",
+      "side": "AFF",
+      "stockIssueTag": "Inherency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Extend both inherency args\u2014NEG dropped them entirely. Conceded: 45M uninsured, medical bankruptcy structural",
+        "reasoning": "NEG 1NC and 2NC never touched inherency. These flows are AFF wins by concession.",
+        "impact": "AFF wins Inherency 2-0: uninsured structural gap and medical bankruptcy both stand",
+        "evidenceSource": "Flow analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": "Extended"
+      }
+    },
+    "aff-1ar-h": {
+      "argumentId": "aff-1ar-h",
+      "speechId": "1AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "aff-h-2 is dropped by NEG\u2014job lock and entrepreneurship harm stands",
+        "reasoning": "NEG never touched aff-h-2 in 1NC or 2NC; it is a conceded AFF argument",
+        "impact": "AFF wins the job-lock harm by concession",
+        "evidenceSource": "Flow analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": "Extended"
+      }
+    },
+    "aff-1ar-s": {
+      "argumentId": "aff-1ar-s",
+      "speechId": "1AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Solvency",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [],
+      "core": {
+        "claim": "Both solvency arguments are dropped by NEG\u201430-40% admin savings and OECD outcomes both stand",
+        "reasoning": "NEG spent no time on solvency in 1NC or 2NC; CBO projections and OECD data are uncontested",
+        "impact": "AFF wins Solvency cleanly: revenue-neutral, better outcomes, conceded",
+        "evidenceSource": "Flow analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": "Extended"
+      }
+    },
+    "neg-2nr-t": {
+      "argumentId": "neg-2nr-t",
+      "speechId": "2NR",
+      "speakerId": "spk-3",
+      "side": "NEG",
+      "stockIssueTag": "Topicality",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "aff-1ar-t"
+      ],
+      "core": {
+        "claim": "T is still a voting issue\u2014even if AFF has substance, T is a procedural prior question",
+        "reasoning": "Limits are a real concern; AFF's interpretation of 'substantially increase' could include any government healthcare action",
+        "impact": "Vote NEG on T as a procedural gateway; substance is irrelevant if AFF isn't topical",
+        "evidenceSource": "Debate theory"
+      },
+      "enrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": null
+      }
+    },
+    "aff-2ar": {
+      "argumentId": "aff-2ar",
+      "speechId": "2AR",
+      "speakerId": "spk-2",
+      "side": "AFF",
+      "stockIssueTag": "Harms",
+      "stockCaseId": null,
+      "rebuttalTargetIds": [
+        "neg-h-1"
+      ],
+      "core": {
+        "claim": "T is answered; extend ALL dropped arguments: inherency, job-lock, both solvency args, 68K deaths",
+        "reasoning": "NEG dropped 5 of 6 AFF arguments. 68K deaths, medical bankruptcy, job-lock, CBO savings, OECD outcomes\u2014all uncontested",
+        "impact": "AFF wins the round on dropped arguments alone; T is adequately answered",
+        "evidenceSource": "Flow analysis"
+      },
+      "enrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": [],
+        "argumentStrength": null,
+        "status": "Extended"
+      }
+    }
+  },
+  "crossExaminations": [
+    {
+      "cxId": "cx-1",
+      "afterSpeechId": "1AC",
+      "examinerId": "spk-3",
+      "respondentId": "spk-1",
+      "examinerSide": "NEG",
+      "respondentSide": "AFF",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 176,
+      "questions": [
+        {
+          "questionId": "cx1-q1",
+          "targetArgumentId": "aff-s-1",
+          "evasive": true,
+          "admissionExtracted": false,
+          "admissionNote": null
+        },
+        {
+          "questionId": "cx1-q2",
+          "targetArgumentId": "aff-h-1",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "AFF conceded Harvard study uses 2002 baseline data"
+        }
+      ]
+    },
+    {
+      "cxId": "cx-2",
+      "afterSpeechId": "1NC",
+      "examinerId": "spk-2",
+      "respondentId": "spk-3",
+      "examinerSide": "AFF",
+      "respondentSide": "NEG",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 168,
+      "questions": [
+        {
+          "questionId": "cx2-q1",
+          "targetArgumentId": "neg-t-1",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "NEG confirmed T is their only substantive policy objection"
+        },
+        {
+          "questionId": "cx2-q2",
+          "targetArgumentId": "neg-h-1",
+          "evasive": false,
+          "admissionExtracted": false,
+          "admissionNote": null
+        }
+      ]
+    },
+    {
+      "cxId": "cx-3",
+      "afterSpeechId": "2AC",
+      "examinerId": "spk-4",
+      "respondentId": "spk-1",
+      "examinerSide": "NEG",
+      "respondentSide": "AFF",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 174,
+      "questions": [
+        {
+          "questionId": "cx3-q1",
+          "targetArgumentId": "aff-1ar-t",
+          "evasive": false,
+          "admissionExtracted": false,
+          "admissionNote": null
+        }
+      ]
+    },
+    {
+      "cxId": "cx-4",
+      "afterSpeechId": "2NC",
+      "examinerId": "spk-1",
+      "respondentId": "spk-4",
+      "examinerSide": "AFF",
+      "respondentSide": "NEG",
+      "timeAllocatedSeconds": 180,
+      "timeUsedSeconds": 165,
+      "questions": [
+        {
+          "questionId": "cx4-q1",
+          "targetArgumentId": "neg-t-ext",
+          "evasive": false,
+          "admissionExtracted": true,
+          "admissionNote": "NEG admitted they have no answer to solvency or inherency\u2014going T-only"
+        }
+      ]
+    }
+  ],
+  "prepTimeUsedSeconds": {
+    "AFF": 180,
+    "NEG": 470
+  }
+}
