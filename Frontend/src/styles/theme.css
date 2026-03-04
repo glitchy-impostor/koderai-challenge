@@ -1,0 +1,105 @@
+/* ============================================================================
+   theme.css — Design system tokens
+   Aesthetic: dark analytical / terminal-meets-forensics
+   Fonts: IBM Plex Mono (data/scores) + IBM Plex Sans (UI text)
+   ============================================================================ */
+
+:root {
+  /* ── Color palette ──────────────────────────────────────────────────────── */
+  --bg-base:        #09090d;
+  --bg-surface:     #111118;
+  --bg-elevated:    #18181f;
+  --bg-overlay:     #1f1f28;
+  --bg-hover:       #25252f;
+
+  --border-subtle:  #1e1e28;
+  --border-default: #2a2a38;
+  --border-strong:  #3a3a4f;
+
+  --text-primary:   #e8e8f0;
+  --text-secondary: #9898b0;
+  --text-muted:     #5a5a72;
+  --text-disabled:  #3a3a50;
+
+  /* ── Side colors ────────────────────────────────────────────────────────── */
+  --aff:            #3b9eff;
+  --aff-dim:        #1a3f6e;
+  --aff-bg:         #0a1928;
+  --aff-text:       #90c7ff;
+
+  --neg:            #ff5060;
+  --neg-dim:        #6e1a20;
+  --neg-bg:         #28080a;
+  --neg-text:       #ff9099;
+
+  /* ── Status colors ──────────────────────────────────────────────────────── */
+  --dropped:        #ff9a3b;
+  --dropped-dim:    #5c3408;
+  --dropped-bg:     #1a0e02;
+
+  --extended:       #4ade80;
+  --extended-dim:   #0e4022;
+  --extended-bg:    #031108;
+
+  --conceded:       #a78bfa;
+  --conceded-bg:    #0e0820;
+
+  /* ── Accent ─────────────────────────────────────────────────────────────── */
+  --accent:         #7c5fff;
+  --accent-hover:   #9478ff;
+  --accent-dim:     #2a1d6e;
+
+  /* ── Hard gate ──────────────────────────────────────────────────────────── */
+  --gate-fail:      #ff3b3b;
+  --gate-pass:      #22c55e;
+
+  /* ── Semantic score colors ──────────────────────────────────────────────── */
+  --score-high:     #4ade80;
+  --score-mid:      #fbbf24;
+  --score-low:      #f87171;
+
+  /* ── Typography ─────────────────────────────────────────────────────────── */
+  --font-ui:        'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono:      'IBM Plex Mono', 'Fira Code', monospace;
+
+  --text-xs:        0.6875rem;    /* 11px */
+  --text-sm:        0.75rem;      /* 12px */
+  --text-base:      0.875rem;     /* 14px */
+  --text-md:        1rem;         /* 16px */
+  --text-lg:        1.125rem;     /* 18px */
+  --text-xl:        1.375rem;     /* 22px */
+  --text-2xl:       1.75rem;      /* 28px */
+  --text-3xl:       2.25rem;      /* 36px */
+
+  /* ── Spacing ─────────────────────────────────────────────────────────────── */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* ── Radius ──────────────────────────────────────────────────────────────── */
+  --radius-sm:  3px;
+  --radius-md:  6px;
+  --radius-lg:  10px;
+
+  /* ── Shadows ─────────────────────────────────────────────────────────────── */
+  --shadow-sm:  0 1px 3px rgba(0, 0, 0, 0.5);
+  --shadow-md:  0 4px 12px rgba(0, 0, 0, 0.6);
+  --shadow-lg:  0 8px 32px rgba(0, 0, 0, 0.7);
+
+  /* ── Transitions ─────────────────────────────────────────────────────────── */
+  --transition-fast:   80ms ease;
+  --transition-base:   160ms ease;
+  --transition-slow:   280ms ease;
+
+  /* ── Z-index scale ────────────────────────────────────────────────────────── */
+  --z-base:     1;
+  --z-dropdown: 100;
+  --z-modal:    200;
+  --z-toast:    300;
+}
