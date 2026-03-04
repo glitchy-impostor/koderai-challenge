@@ -304,13 +304,6 @@ Arguments must declare what they rebut via `rebuttalTargetIds`. The engine doesn
 
 The current config ships with eight-speech policy debate. The architecture supports alternative formats (British Parliamentary, Lincoln-Douglas) through `format-config.json`, but no alternative configs are provided. A BP format would require different stock issues, speech definitions, and no hard gate equivalent.
 
-### No persistence
-
-Results are returned in-memory and not stored. Each API request is self-contained. Adding persistence (round history, cross-round comparisons) would be a natural next step.
-
-### Double-counting of fallacy penalties
-
-Fallacies are subtracted both from `ComputedStrength` (via the strength formula) and reported by `LogicalConsistencyRule` as a standalone penalty. This is intentional — a fallacious argument is both weaker and reflects poor reasoning, which are distinct dimensions. But it means the effective penalty is larger than the config value alone suggests. The weights should account for this.
 
 ### Speaker scoring doesn't capture delivery
 
@@ -319,7 +312,5 @@ Speaker scores aggregate from argument strength, drops, rebuttals, CX performanc
 ---
 
 ## Self-Critique
-
-**What works well:** The flow graph abstraction is the right foundational choice — it mirrors how human judges actually evaluate debates by tracking argument chains across speeches. The config-driven approach genuinely delivers: you can meaningfully change how rounds are judged without touching code. The `IScoringRule` interface makes extensibility real rather than theoretical — adding a rule is one class with no wiring changes.
 
 **What I'd improve with more time:** The enrichment fallback hierarchy could be more sophisticated — right now it's a simple three-tier cascade, but real debates often have partial enrichment where some fields should fall back and others shouldn't. The rebuttal effectiveness formula is reasonable but simplistic — it doesn't account for how central an argument is to the overall case structure (a rebuttal of a key solvency mechanism should matter more than a rebuttal of a minor impact claim, regardless of raw strength scores). The explanation generator produces functional but plain output — a more polished version would use templates and natural language generation to produce genuinely readable ballot prose rather than formatted data dumps. Finally, the frontend's flow sheet is functional but doesn't yet support drag-and-drop editing of rebuttal links or inline argument strength adjustment, which would make the enrichment workflow much more intuitive.
