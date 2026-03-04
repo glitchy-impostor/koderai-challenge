@@ -1,0 +1,36 @@
+{
+  "formatId": "policy-standard",
+  "formatName": "Policy Debate (Standard)",
+  "stockIssues": [
+    { "id": "Topicality",  "label": "Topicality",  "obligatedSide": "AFF" },
+    { "id": "Inherency",   "label": "Inherency",   "obligatedSide": "AFF" },
+    { "id": "Harms",       "label": "Harms",       "obligatedSide": "AFF" },
+    { "id": "Solvency",    "label": "Solvency",    "obligatedSide": "AFF" }
+  ],
+  "hardGateIssues": ["Topicality"],
+  "speechOrder": [
+    { "speechId": "1AC",  "side": "AFF", "type": "Constructive", "timeSeconds": 480 },
+    { "speechId": "CX-1", "side": "CX",  "type": "CrossEx",      "timeSeconds": 180 },
+    { "speechId": "1NC",  "side": "NEG", "type": "Constructive", "timeSeconds": 480 },
+    { "speechId": "CX-2", "side": "CX",  "type": "CrossEx",      "timeSeconds": 180 },
+    { "speechId": "2AC",  "side": "AFF", "type": "Constructive", "timeSeconds": 480 },
+    { "speechId": "CX-3", "side": "CX",  "type": "CrossEx",      "timeSeconds": 180 },
+    { "speechId": "2NC",  "side": "NEG", "type": "Constructive", "timeSeconds": 480 },
+    { "speechId": "CX-4", "side": "CX",  "type": "CrossEx",      "timeSeconds": 180 },
+    { "speechId": "1NR",  "side": "NEG", "type": "Rebuttal",     "timeSeconds": 300 },
+    { "speechId": "1AR",  "side": "AFF", "type": "Rebuttal",     "timeSeconds": 300 },
+    { "speechId": "2NR",  "side": "NEG", "type": "Rebuttal",     "timeSeconds": 300 },
+    { "speechId": "2AR",  "side": "AFF", "type": "Rebuttal",     "timeSeconds": 300 }
+  ],
+  "dropRules": [
+    { "argumentIntroducedIn": "1AC",  "mustBeAnsweredBy": "1NC"  },
+    { "argumentIntroducedIn": "1NC",  "mustBeAnsweredBy": "2AC"  },
+    { "argumentIntroducedIn": "2AC",  "mustBeAnsweredBy": "2NC"  },
+    { "argumentIntroducedIn": "2NC",  "mustBeAnsweredBy": "1AR"  },
+    { "argumentIntroducedIn": "1NR",  "mustBeAnsweredBy": "2AR"  },
+    { "argumentIntroducedIn": "1AR",  "mustBeAnsweredBy": "2NR"  },
+    { "argumentIntroducedIn": "2NR",  "mustBeAnsweredBy": "2AR"  }
+  ],
+  "prepTimeSeconds": { "AFF": 480, "NEG": 480 },
+  "coreArgumentFields": ["claim", "reasoning", "impact"]
+}

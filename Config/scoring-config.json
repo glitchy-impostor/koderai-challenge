@@ -1,0 +1,52 @@
+{
+  "StockIssueWeights": {
+    "Topicality": 0,
+    "Inherency": 0.15,
+    "Harms": 0.35,
+    "Solvency": 0.35,
+    "CrossEx": 0.55
+  },
+  "TiebreakerPriority": [
+    "Solvency",
+    "Harms",
+    "Inherency"
+  ],
+  "EvidenceQualityMultipliers": {
+    "PeerReviewed": 1,
+    "ExpertOpinion": 0.85,
+    "NewsSource": 0.7,
+    "Anecdotal": 0.4,
+    "Unverified": 1.2
+  },
+  "ImpactMagnitudeScores": {
+    "Existential": 5,
+    "Catastrophic": 4,
+    "Significant": 3,
+    "Minor": 2,
+    "Negligible": 1
+  },
+  "FallacyPenalties": {
+    "StrawMan": 0.5,
+    "AdHominem": 0.75,
+    "FalseDichotomy": 0.4,
+    "SlipperySlope": 0.3,
+    "AppealToAuthority": 0.2,
+    "Repetition": 0.3
+  },
+  "DroppedArgumentConcessionMultiplier": 1.5,
+  "CxAdmissionBonus": 0.3,
+  "CxEvasionPenalty": 0.2,
+  "TimeEfficiency": {
+    "OverTimePenaltyPerSecond": 0.01,
+    "UnderTimeThresholdPercent": 0.75,
+    "UnderTimePenalty": 0.5
+  },
+  "PrepTimeEfficiency": {
+    "UnusedPrepBonusPerSecond": 0.001,
+    "OverPrepPenalty": 2
+  },
+  "DefaultArgumentStrengthWhenAbsent": 2.5,
+  "RebuttalEffectivenessWeight": 0.4,
+  "DefaultEvidenceQuality": "Unverified",
+  "DefaultImpactMagnitude": "Minor"
+}

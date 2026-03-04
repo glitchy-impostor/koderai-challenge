@@ -1,0 +1,110 @@
+{
+  "roundId": "round-001",
+  "motion": "This House believes the USFG should substantially increase federal regulation of artificial intelligence",
+  "formatId": "policy-standard",
+  "stockCaseLibrary": [
+    {
+      "stockCaseId": "sc-t-substantially",
+      "label": "Topicality — Substantially (Standard Shell)",
+      "stockIssueTag": "Topicality",
+      "side": "NEG",
+      "source": "system",
+      "defaultEnrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": []
+      },
+      "blueprintArgument": {
+        "claim": "AFF's plan does not meet the threshold for 'substantially' increasing regulation",
+        "reasoning": "Substantially requires a meaningful, measurable increase in regulatory burden — minor procedural adjustments do not qualify",
+        "impact": "Voting AFF on a non-topical plan undermines the limits of the resolution and sets a bad precedent"
+      }
+    },
+    {
+      "stockCaseId": "sc-harms-bias",
+      "label": "Harms — Algorithmic Bias",
+      "stockIssueTag": "Harms",
+      "side": "AFF",
+      "source": "system",
+      "defaultEnrichment": {
+        "evidenceQuality": "PeerReviewed",
+        "impactMagnitude": "Significant",
+        "fallacies": []
+      },
+      "blueprintArgument": {
+        "claim": "Unregulated AI systems perpetuate and amplify systemic bias in high-stakes decisions",
+        "reasoning": "Peer-reviewed studies document disparate impact in AI-driven hiring, lending, and criminal justice tools",
+        "impact": "Millions face discriminatory outcomes annually from opaque algorithmic systems with no accountability"
+      }
+    },
+    {
+      "stockCaseId": "sc-harms-safety",
+      "label": "Harms — AI Safety Risks",
+      "stockIssueTag": "Harms",
+      "side": "AFF",
+      "source": "system",
+      "defaultEnrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Catastrophic",
+        "fallacies": []
+      },
+      "blueprintArgument": {
+        "claim": "Absent regulation, advanced AI deployment outpaces safety research and creates systemic risk",
+        "reasoning": "Competitive pressure drives deployment before safety benchmarks are met; no single actor has incentive to slow down unilaterally",
+        "impact": "Insufficiently tested high-capability AI risks cascading failures in critical infrastructure"
+      }
+    },
+    {
+      "stockCaseId": "sc-solv-agency",
+      "label": "Solvency — Federal AI Regulatory Agency",
+      "stockIssueTag": "Solvency",
+      "side": "AFF",
+      "source": "system",
+      "defaultEnrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Significant",
+        "fallacies": []
+      },
+      "blueprintArgument": {
+        "claim": "A dedicated federal AI regulatory agency with mandatory auditing powers solves the identified harms",
+        "reasoning": "Centralized technical expertise and enforcement authority create accountability that voluntary standards cannot achieve",
+        "impact": "Structured federal oversight demonstrably reduces harm in analogous industries (FDA, FAA)"
+      }
+    },
+    {
+      "stockCaseId": "sc-inh-regulatory-gap",
+      "label": "Inherency — Regulatory Gap",
+      "stockIssueTag": "Inherency",
+      "side": "AFF",
+      "source": "system",
+      "defaultEnrichment": {
+        "evidenceQuality": "NewsSource",
+        "impactMagnitude": "Significant",
+        "fallacies": []
+      },
+      "blueprintArgument": {
+        "claim": "The status quo lacks comprehensive federal AI regulation, creating a structural regulatory gap",
+        "reasoning": "No single federal agency has jurisdiction over AI systems broadly — regulations are fragmented and do not cover general-purpose AI",
+        "impact": "The gap means harmful AI can be deployed with no unified accountability standard"
+      }
+    },
+    {
+      "stockCaseId": "sc-solv-neg-inherency",
+      "label": "Solvency (NEG) — Status Quo Already Solves",
+      "stockIssueTag": "Solvency",
+      "side": "NEG",
+      "source": "system",
+      "defaultEnrichment": {
+        "evidenceQuality": "ExpertOpinion",
+        "impactMagnitude": "Minor",
+        "fallacies": []
+      },
+      "blueprintArgument": {
+        "claim": "AFF's plan provides no unique solvency over existing mechanisms",
+        "reasoning": "NIST AI RMF, FTC enforcement, and sector-specific regulations already address the harms AFF identifies",
+        "impact": "Without unique solvency, AFF's compliance costs outweigh benefits that already exist in the status quo"
+      }
+    }
+  ],
+  "userStockCases": []
+}
