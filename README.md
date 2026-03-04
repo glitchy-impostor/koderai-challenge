@@ -1,6 +1,6 @@
 # Debate Scoring Engine
 
-A deterministic, config-driven debate judging system built in C# (.NET 8). Given a structured debate transcript, it produces a winner, a multi-dimensional score breakdown at the team, issue, rule, argument, and speaker level, and a human-readable ballot explanation.
+A deterministic, config-driven debate judging system built in C# (.NET 8). Given a structured debate transcript, it produces a winner, a multi-dimensional score breakdown at the team, issue, rule, argument, and speaker level, and a human-readable ballot explanation, made with the help of Claude.
 
 Includes a React frontend with a flow-sheet visualizer, score panel, enrichment tools, and live config editing.
 
